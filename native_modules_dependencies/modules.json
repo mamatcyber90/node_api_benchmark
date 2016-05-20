@@ -1,0 +1,10161 @@
+{
+	"express": {
+		"depend": [
+			"accepts",
+			"array-flatten",
+			"content-disposition",
+			"content-type",
+			"cookie",
+			"cookie-signature",
+			"debug",
+			"depd",
+			"escape-html",
+			"etag",
+			"finalhandler",
+			"fresh",
+			"merge-descriptors",
+			"methods",
+			"on-finished",
+			"parseurl",
+			"path-to-regexp",
+			"proxy-addr",
+			"qs",
+			"range-parser",
+			"send",
+			"serve-static",
+			"type-is",
+			"utils-merge",
+			"vary"
+		],
+		"support": [],
+		"native": false
+	},
+	"gulp": {
+		"depend": [
+			"archy",
+			"chalk",
+			"deprecated",
+			"gulp-util",
+			"interpret",
+			"liftoff",
+			"minimist",
+			"orchestrator",
+			"pretty-hrtime",
+			"semver",
+			"tildify",
+			"v8flags",
+			"vinyl-fs"
+		],
+		"support": [],
+		"native": false
+	},
+	"async": {
+		"depend": [
+			"lodash"
+		],
+		"support": [],
+		"native": false
+	},
+	"request": {
+		"depend": [
+			"aws-sign2",
+			"aws4",
+			"bl",
+			"caseless",
+			"combined-stream",
+			"extend",
+			"forever-agent",
+			"form-data",
+			"har-validator",
+			"hawk",
+			"http-signature",
+			"is-typedarray",
+			"isstream",
+			"json-stringify-safe",
+			"mime-types",
+			"node-uuid",
+			"oauth-sign",
+			"qs",
+			"stringstream",
+			"tough-cookie",
+			"tunnel-agent"
+		],
+		"support": [],
+		"native": false
+	},
+	"lodash": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"browserify": {
+		"depend": [
+			"JSONStream",
+			"assert",
+			"browser-pack",
+			"browser-resolve",
+			"browserify-zlib",
+			"buffer",
+			"concat-stream",
+			"console-browserify",
+			"constants-browserify",
+			"crypto-browserify",
+			"defined",
+			"deps-sort",
+			"domain-browser",
+			"duplexer2",
+			"events",
+			"glob",
+			"has",
+			"htmlescape",
+			"https-browserify",
+			"inherits",
+			"insert-module-globals",
+			"labeled-stream-splicer",
+			"module-deps",
+			"os-browserify",
+			"parents",
+			"path-browserify",
+			"process",
+			"punycode",
+			"querystring-es3",
+			"read-only-stream",
+			"readable-stream",
+			"resolve",
+			"shasum",
+			"shell-quote",
+			"stream-browserify",
+			"stream-http",
+			"string",
+			"subarg",
+			"syntax-error",
+			"through2",
+			"timers-browserify",
+			"tty-browserify",
+			"url",
+			"util",
+			"vm-browserify",
+			"xtend"
+		],
+		"support": [],
+		"native": false
+	},
+	"pm2": {
+		"depend": [
+			"async",
+			"chalk",
+			"chokidar",
+			"cli-table",
+			"coffee-script",
+			"commander",
+			"cron",
+			"debug",
+			"eventemitter2",
+			"moment",
+			"nssocket",
+			"pidusage",
+			"pmx",
+			"vizion",
+			"pm2-axon",
+			"pm2-axon-rpc",
+			"pm2-deploy",
+			"pm2-multimeter",
+			"shelljs",
+			"yamljs",
+			"semver",
+			"mkdirp",
+			"source-map-support",
+			"ikt"
+		],
+		"support": [],
+		"native": false
+	},
+	"grunt": {
+		"depend": [
+			"coffee-script",
+			"dateformat",
+			"eventemitter2",
+			"exit",
+			"findup-sync",
+			"glob",
+			"grunt-cli",
+			"grunt-known-options",
+			"grunt-legacy-log",
+			"grunt-legacy-util",
+			"iconv-lite",
+			"js-yaml",
+			"minimatch",
+			"nopt",
+			"path-is-absolute",
+			"rimraf"
+		],
+		"support": [],
+		"native": false
+	},
+	"socket.io": {
+		"depend": [
+			"engine",
+			"socket",
+			"has-binary",
+			"debug"
+		],
+		"support": [],
+		"native": false
+	},
+	"commander": {
+		"depend": [
+			"graceful-readlink"
+		],
+		"support": [],
+		"native": false
+	},
+	"forever": {
+		"depend": [
+			"cliff",
+			"clone",
+			"colors",
+			"flatiron",
+			"forever-monitor",
+			"nconf",
+			"nssocket",
+			"object-assign",
+			"optimist",
+			"path-is-absolute",
+			"prettyjson",
+			"shush",
+			"timespan",
+			"utile",
+			"winston"
+		],
+		"support": [],
+		"native": false
+	},
+	"mongoose": {
+		"depend": [
+			"async",
+			"bson",
+			"hooks-fixed",
+			"kareem",
+			"mongodb",
+			"mpath",
+			"mpromise",
+			"mquery",
+			"ms",
+			"muri",
+			"regexp-clone",
+			"sliced"
+		],
+		"support": [],
+		"native": false
+	},
+	"mocha": {
+		"depend": [
+			"commander",
+			"debug",
+			"diff",
+			"escape-string-regexp",
+			"glob",
+			"growl",
+			"jade",
+			"mkdirp",
+			"supports-color"
+		],
+		"support": [],
+		"native": false
+	},
+	"moment": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"bower": {
+		"depend": [
+			"node-uuid",
+			"uuid"
+		],
+		"support": [],
+		"native": false
+	},
+	"underscore": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"chalk": {
+		"depend": [
+			"ansi-styles",
+			"escape-string-regexp",
+			"has-ansi",
+			"strip-ansi",
+			"supports-color"
+		],
+		"support": [],
+		"native": false
+	},
+	"gulp-uglify": {
+		"depend": [
+			"deap",
+			"fancy-log",
+			"gulp-util",
+			"isobject",
+			"through2",
+			"uglify-js",
+			"uglify-save-license",
+			"vinyl-sourcemaps-apply"
+		],
+		"support": [],
+		"native": false
+	},
+	"q": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"cheerio": {
+		"depend": [
+			"css-select",
+			"entities",
+			"htmlparser2",
+			"dom-serializer",
+			"lodash",
+			"jsdom"
+		],
+		"support": [],
+		"native": false
+	},
+	"npm": {
+		"depend": [
+			"abbrev",
+			"ansicolors",
+			"ansistyles",
+			"aproba",
+			"archy",
+			"chownr",
+			"cmd-shim",
+			"columnify",
+			"config-chain",
+			"dezalgo",
+			"editor",
+			"fs-vacuum",
+			"fs-write-stream-atomic",
+			"fstream",
+			"fstream-npm",
+			"glob",
+			"graceful-fs",
+			"has-unicode",
+			"hosted-git-info",
+			"iferr",
+			"inflight",
+			"inherits",
+			"ini",
+			"init-package-json",
+			"lockfile",
+			"lodash",
+			"mkdirp",
+			"node-gyp",
+			"nopt",
+			"normalize-git-url",
+			"normalize-package-data",
+			"npm-cache-filename",
+			"npm-install-checks",
+			"npm-package-arg",
+			"npm-registry-client",
+			"npm-user-validate",
+			"npmlog",
+			"once",
+			"opener",
+			"osenv",
+			"path-is-inside",
+			"read",
+			"read-cmd-shim",
+			"read-installed",
+			"read-package-json",
+			"read-package-tree",
+			"readable-stream",
+			"realize-package-specifier",
+			"request",
+			"retry",
+			"rimraf",
+			"semver",
+			"sha",
+			"slide",
+			"sorted-object",
+			"strip-ansi",
+			"tar",
+			"text-table",
+			"uid-number",
+			"umask",
+			"unique-filename",
+			"unpipe",
+			"validate-npm-package-name",
+			"which",
+			"wrappy",
+			"write-file-atomic",
+			"ansi-regex",
+			"debuglog",
+			"imurmurhash",
+			"readdir-scoped-modules",
+			"validate-npm-package-license"
+		],
+		"support": [],
+		"native": false
+	},
+	"debug": {
+		"depend": [
+			"ms"
+		],
+		"support": [],
+		"native": false
+	},
+	"bluebird": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"gulp-concat": {
+		"depend": [
+			"concat-with-sourcemaps",
+			"gulp-util",
+			"through2"
+		],
+		"support": [],
+		"native": false
+	},
+	"colors": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"passport": {
+		"depend": [
+			"passport-strategy"
+		],
+		"support": [],
+		"native": false
+	},
+	"nodemailer": {
+		"depend": [
+			"libmime",
+			"mailcomposer",
+			"nodemailer-direct-transport",
+			"nodemailer-shared",
+			"nodemailer-smtp-pool",
+			"nodemailer-smtp-transport",
+			"socks"
+		],
+		"support": [],
+		"native": false
+	},
+	"redis": {
+		"depend": [
+			"double-ended-queue",
+			"redis-commands",
+			"redis-parser"
+		],
+		"support": [],
+		"native": false
+	},
+	"gulp-sass": {
+		"depend": [
+			"gulp-util",
+			"node-sass",
+			"object-assign",
+			"through2",
+			"vinyl-sourcemaps-apply"
+		],
+		"support": [],
+		"native": false
+	},
+	"react": {
+		"depend": [
+			"fbjs",
+			"loose-envify",
+			"object-assign"
+		],
+		"support": [],
+		"native": false
+	},
+	"hapi": {
+		"depend": [
+			"accept",
+			"ammo",
+			"boom",
+			"call",
+			"catbox",
+			"catbox-memory",
+			"cryptiles",
+			"heavy",
+			"hoek",
+			"iron",
+			"items",
+			"joi",
+			"kilt",
+			"mimos",
+			"peekaboo",
+			"shot",
+			"statehood",
+			"subtext",
+			"topo"
+		],
+		"support": [],
+		"native": false
+	},
+	"karma": {
+		"depend": [
+			"batch",
+			"bluebird",
+			"body-parser",
+			"chokidar",
+			"colors",
+			"connect",
+			"core-js",
+			"di",
+			"dom-serialize",
+			"expand-braces",
+			"glob",
+			"graceful-fs",
+			"http-proxy",
+			"isbinaryfile",
+			"lodash",
+			"log4js",
+			"mime",
+			"minimatch",
+			"optimist",
+			"rimraf",
+			"socket",
+			"source-map",
+			"useragent"
+		],
+		"support": [],
+		"native": false
+	},
+	"coffee-script": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"nodemon": {
+		"depend": [
+			"chokidar",
+			"debug",
+			"es6-promise",
+			"ignore-by-default",
+			"lodash",
+			"minimatch",
+			"ps-tree",
+			"touch",
+			"undefsafe",
+			"update-notifier"
+		],
+		"support": [],
+		"native": false
+	},
+	"mysql": {
+		"depend": [
+			"bignumber"
+		],
+		"support": [],
+		"native": false
+	},
+	"yo": {
+		"depend": [
+			"async",
+			"chalk",
+			"cli-list",
+			"configstore",
+			"cross-spawn-async",
+			"figures",
+			"fullname",
+			"got",
+			"humanize-string",
+			"inquirer",
+			"insight",
+			"lodash",
+			"meow",
+			"npm-keyword",
+			"opn",
+			"package-json",
+			"parse-help",
+			"read-pkg-up",
+			"repeating",
+			"root-check",
+			"sort-on",
+			"string-length",
+			"tabtab",
+			"titleize",
+			"update-notifier",
+			"user-home",
+			"yeoman-character",
+			"yeoman-doctor",
+			"yeoman-environment",
+			"yosay"
+		],
+		"support": [],
+		"native": false
+	},
+	"jade": {
+		"depend": [
+			"character-parser",
+			"clean-css",
+			"commander",
+			"constantinople",
+			"jstransformer",
+			"mkdirp",
+			"transformers",
+			"uglify-js",
+			"void-elements",
+			"with"
+		],
+		"support": [],
+		"native": false
+	},
+	"gulp-autoprefixer": {
+		"depend": [
+			"autoprefixer",
+			"gulp-util",
+			"postcss",
+			"through2",
+			"vinyl-sourcemaps-apply"
+		],
+		"support": [],
+		"native": false
+	},
+	"body-parser": {
+		"depend": [
+			"bytes",
+			"content-type",
+			"debug",
+			"depd",
+			"http-errors",
+			"iconv-lite",
+			"on-finished",
+			"qs",
+			"raw-body",
+			"type-is"
+		],
+		"support": [],
+		"native": false
+	},
+	"validator": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"cordova": {
+		"depend": [
+			"ansi",
+			"cordova-lib",
+			"cordova-common",
+			"q",
+			"nopt",
+			"underscore",
+			"update-notifier"
+		],
+		"support": [],
+		"native": false
+	},
+	"minimist": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"mongodb": {
+		"depend": [
+			"es6-promise",
+			"mongodb-core",
+			"readable-stream"
+		],
+		"support": [],
+		"native": false
+	},
+	"browser-sync": {
+		"depend": [
+			"browser-sync-client",
+			"browser-sync-ui",
+			"bs-recipes",
+			"chokidar",
+			"connect",
+			"dev-ip",
+			"easy-extender",
+			"eazy-logger",
+			"emitter-steward",
+			"fs-extra",
+			"http-proxy",
+			"immutable",
+			"localtunnel",
+			"lodash",
+			"micromatch",
+			"opn",
+			"portscanner",
+			"qs",
+			"resp-modifier",
+			"serve-index",
+			"serve-static",
+			"socket",
+			"ua-parser-js",
+			"ucfirst",
+			"yargs"
+		],
+		"support": [],
+		"native": false
+	},
+	"less": {
+		"depend": [
+			"errno",
+			"graceful-fs",
+			"image-size",
+			"mime",
+			"mkdirp",
+			"promise",
+			"source-map"
+		],
+		"support": [],
+		"native": false
+	},
+	"grunt-cli": {
+		"depend": [
+			"findup-sync",
+			"grunt-known-options",
+			"nopt",
+			"resolve"
+		],
+		"support": [],
+		"native": false
+	},
+	"http-server": {
+		"depend": [
+			"colors",
+			"corser",
+			"ecstatic",
+			"http-proxy",
+			"opener",
+			"optimist",
+			"portfinder",
+			"union"
+		],
+		"support": [],
+		"native": false
+	},
+	"npm-check-updates": {
+		"depend": [
+			"bluebird",
+			"chalk",
+			"cint",
+			"cli-table",
+			"commander",
+			"fast-diff",
+			"find-up",
+			"get-stdin",
+			"json-parse-helpfulerror",
+			"lodash",
+			"node-alias",
+			"npm",
+			"npmi",
+			"require-dir",
+			"semver",
+			"semver-utils",
+			"spawn-please",
+			"update-notifier"
+		],
+		"support": [],
+		"native": false
+	},
+	"winston": {
+		"depend": [
+			"async",
+			"colors",
+			"cycle",
+			"eyes",
+			"isstream",
+			"pkginfo",
+			"stack-trace"
+		],
+		"support": [],
+		"native": false
+	},
+	"gulp-imagemin": {
+		"depend": [
+			"chalk",
+			"gulp-util",
+			"imagemin",
+			"plur",
+			"pretty-bytes",
+			"through2-concurrent",
+			"imagemin-gifsicle",
+			"imagemin-jpegtran",
+			"imagemin-optipng",
+			"imagemin-svgo"
+		],
+		"support": [],
+		"native": false
+	},
+	"gulp-rename": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"shelljs": {
+		"depend": [
+			"glob"
+		],
+		"support": [],
+		"native": false
+	},
+	"gulp-sourcemaps": {
+		"depend": [
+			"convert-source-map",
+			"graceful-fs",
+			"strip-bom",
+			"through2",
+			"vinyl"
+		],
+		"support": [],
+		"native": false
+	},
+	"glob": {
+		"depend": [
+			"inflight",
+			"inherits",
+			"minimatch",
+			"once",
+			"path-is-absolute"
+		],
+		"support": [],
+		"native": false
+	},
+	"fs-extra": {
+		"depend": [
+			"graceful-fs",
+			"jsonfile",
+			"klaw",
+			"path-is-absolute",
+			"rimraf"
+		],
+		"support": [],
+		"native": false
+	},
+	"yargs": {
+		"depend": [
+			"camelcase",
+			"cliui",
+			"decamelize",
+			"lodash",
+			"os-locale",
+			"pkg-conf",
+			"read-pkg-up",
+			"require-main-filename",
+			"set-blocking",
+			"string-width",
+			"window-size",
+			"y18n",
+			"yargs-parser"
+		],
+		"support": [],
+		"native": false
+	},
+	"chai": {
+		"depend": [
+			"assertion-error",
+			"deep-eql",
+			"type-detect"
+		],
+		"support": [],
+		"native": false
+	},
+	"morgan": {
+		"depend": [
+			"basic-auth",
+			"debug",
+			"depd",
+			"on-finished",
+			"on-headers"
+		],
+		"support": [],
+		"native": false
+	},
+	"gulp-minify-css": {
+		"depend": [
+			"clean-css",
+			"gulp-util",
+			"object-assign",
+			"readable-stream",
+			"vinyl-bufferstream",
+			"vinyl-sourcemaps-apply"
+		],
+		"support": [],
+		"native": false
+	},
+	"webpack": {
+		"depend": [
+			"async",
+			"clone",
+			"enhanced-resolve",
+			"acorn",
+			"interpret",
+			"loader-utils",
+			"memory-fs",
+			"mkdirp",
+			"node-libs-browser",
+			"optimist",
+			"supports-color",
+			"tapable",
+			"uglify-js",
+			"watchpack",
+			"webpack-core"
+		],
+		"support": [],
+		"native": false
+	},
+	"superagent": {
+		"depend": [
+			"qs",
+			"formidable",
+			"mime",
+			"component-emitter",
+			"methods",
+			"cookiejar",
+			"debug",
+			"reduce-component",
+			"extend",
+			"form-data",
+			"readable-stream"
+		],
+		"support": [],
+		"native": false
+	},
+	"uglify-js": {
+		"depend": [
+			"async",
+			"source-map",
+			"uglify-to-browserify",
+			"yargs"
+		],
+		"support": [],
+		"native": false
+	},
+	"connect": {
+		"depend": [
+			"debug",
+			"finalhandler",
+			"parseurl",
+			"utils-merge"
+		],
+		"support": [],
+		"native": false
+	},
+	"jshint": {
+		"depend": [
+			"cli",
+			"console-browserify",
+			"exit",
+			"htmlparser2",
+			"minimatch",
+			"shelljs",
+			"strip-json-comments",
+			"lodash"
+		],
+		"support": [],
+		"native": false
+	},
+	"del": {
+		"depend": [
+			"globby",
+			"is-path-cwd",
+			"is-path-in-cwd",
+			"object-assign",
+			"pify",
+			"pinkie-promise",
+			"rimraf"
+		],
+		"support": [],
+		"native": false
+	},
+	"mkdirp": {
+		"depend": [
+			"minimist"
+		],
+		"support": [],
+		"native": false
+	},
+	"node-inspector": {
+		"depend": [
+			"async",
+			"biased-opener",
+			"debug",
+			"express",
+			"glob",
+			"path-is-absolute",
+			"rc",
+			"semver",
+			"serve-favicon",
+			"strong-data-uri",
+			"v8-debug",
+			"v8-profiler",
+			"which",
+			"ws",
+			"yargs"
+		],
+		"support": [],
+		"native": false
+	},
+	"bcrypt": {
+		"depend": [
+			"bindings"
+		],
+		"support": [],
+		"native": true
+	},
+	"gulp-load-plugins": {
+		"depend": [
+			"findup-sync",
+			"gulp-util",
+			"multimatch",
+			"resolve"
+		],
+		"support": [],
+		"native": false
+	},
+	"koa": {
+		"depend": [
+			"accepts",
+			"co",
+			"composition",
+			"content-disposition",
+			"content-type",
+			"cookies",
+			"debug",
+			"delegates",
+			"destroy",
+			"error-inject",
+			"escape-html",
+			"fresh",
+			"http-assert",
+			"http-errors",
+			"koa-compose",
+			"koa-is-json",
+			"mime-types",
+			"on-finished",
+			"only",
+			"parseurl",
+			"statuses",
+			"type-is",
+			"vary"
+		],
+		"support": [],
+		"native": false
+	},
+	"sails": {
+		"depend": [
+			"anchor",
+			"async",
+			"captains-log",
+			"chalk",
+			"commander",
+			"compression",
+			"connect",
+			"connect-flash",
+			"consolidate",
+			"cookie",
+			"cookie-parser",
+			"cookie-signature",
+			"ejs",
+			"ejs-locals",
+			"express",
+			"express-handlebars",
+			"express-session",
+			"fs-extra",
+			"glob",
+			"grunt",
+			"grunt-cli",
+			"grunt-contrib-clean",
+			"grunt-contrib-coffee",
+			"grunt-contrib-concat",
+			"grunt-contrib-copy",
+			"grunt-contrib-cssmin",
+			"grunt-contrib-jst",
+			"grunt-contrib-less",
+			"grunt-contrib-uglify",
+			"grunt-contrib-watch",
+			"grunt-sails-linker",
+			"grunt-sync",
+			"i18n",
+			"include-all",
+			"lodash",
+			"merge-defaults",
+			"method-override",
+			"mock-req",
+			"mock-res",
+			"parseurl",
+			"pluralize",
+			"prompt",
+			"rc",
+			"reportback",
+			"rttc",
+			"sails-build-dictionary",
+			"sails-disk",
+			"sails-generate",
+			"sails-hook-orm",
+			"sails-hook-sockets",
+			"sails-stringfile",
+			"sails-util",
+			"semver",
+			"serve-favicon",
+			"serve-static",
+			"skipper",
+			"uid-safe",
+			"walk",
+			"waterline"
+		],
+		"support": [],
+		"native": false
+	},
+	"express-session": {
+		"depend": [
+			"cookie",
+			"cookie-signature",
+			"crc",
+			"debug",
+			"depd",
+			"on-headers",
+			"parseurl",
+			"uid-safe",
+			"utils-merge"
+		],
+		"support": [],
+		"native": false
+	},
+	"inquirer": {
+		"depend": [
+			"ansi-escapes",
+			"chalk",
+			"cli-cursor",
+			"cli-width",
+			"figures",
+			"lodash",
+			"mute-stream",
+			"pinkie-promise",
+			"run-async",
+			"rx",
+			"string-width",
+			"strip-ansi",
+			"through"
+		],
+		"support": [],
+		"native": false
+	},
+	"jquery": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"xml2js": {
+		"depend": [
+			"sax"
+		],
+		"support": [],
+		"native": false
+	},
+	"angular": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"grunt-contrib-watch": {
+		"depend": [
+			"async",
+			"gaze",
+			"lodash",
+			"tiny-lr"
+		],
+		"support": [],
+		"native": false
+	},
+	"restify": {
+		"depend": [
+			"assert-plus",
+			"backoff",
+			"bunyan",
+			"csv",
+			"escape-regexp-component",
+			"formidable",
+			"http-signature",
+			"keep-alive-agent",
+			"lru-cache",
+			"mime",
+			"negotiator",
+			"node-uuid",
+			"once",
+			"qs",
+			"semver",
+			"spdy",
+			"tunnel-agent",
+			"vasync",
+			"verror",
+			"dtrace-provider"
+		],
+		"support": [],
+		"native": false
+	},
+	"sequelize": {
+		"depend": [
+			"bluebird",
+			"depd",
+			"dottie",
+			"generic-pool",
+			"inflection",
+			"lodash",
+			"moment",
+			"moment-timezone",
+			"node-uuid",
+			"retry-as-promised",
+			"semver",
+			"shimmer",
+			"terraformer-wkt-parser",
+			"toposort-class",
+			"validator",
+			"wkx"
+		],
+		"support": [],
+		"native": false
+	},
+	"gulp-jshint": {
+		"depend": [
+			"gulp-util",
+			"lodash",
+			"minimatch",
+			"rcloader",
+			"through2"
+		],
+		"support": [],
+		"native": false
+	},
+	"node-uuid": {
+		"depend": [],
+		"support": [],
+		"native": true
+	},
+	"gulp-util": {
+		"depend": [
+			"array-differ",
+			"array-uniq",
+			"beeper",
+			"chalk",
+			"dateformat",
+			"fancy-log",
+			"gulplog",
+			"has-gulplog",
+			"lodash",
+			"minimist",
+			"multipipe",
+			"object-assign",
+			"replace-ext",
+			"through2",
+			"vinyl"
+		],
+		"support": [],
+		"native": false
+	},
+	"sinopia": {
+		"depend": [
+			"express",
+			"express-json5",
+			"body-parser",
+			"compression",
+			"commander",
+			"js-yaml",
+			"cookies",
+			"request",
+			"async",
+			"es6-shim",
+			"semver",
+			"minimatch",
+			"bunyan",
+			"handlebars",
+			"highlight",
+			"lunr",
+			"render-readme",
+			"jju",
+			"JSONStream",
+			"mkdirp",
+			"sinopia-htpasswd",
+			"http-errors",
+			"readable-stream",
+			"fs-ext",
+			"crypt3"
+		],
+		"support": [],
+		"native": false
+	},
+	"gm": {
+		"depend": [
+			"debug",
+			"array-series",
+			"array-parallel"
+		],
+		"support": [],
+		"native": false
+	},
+	"marked": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"statsd": {
+		"depend": [
+			"generic-pool",
+			"modern-syslog",
+			"hashring",
+			"winser"
+		],
+		"support": [],
+		"native": false
+	},
+	"gulp-inject": {
+		"depend": [
+			"arrify",
+			"escape-string-regexp",
+			"event-stream",
+			"group-array",
+			"gulp-util",
+			"stream-to-array",
+			"through2"
+		],
+		"support": [],
+		"native": false
+	},
+	"formidable": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"babel": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"ejs": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"grunt-contrib-uglify": {
+		"depend": [
+			"chalk",
+			"lodash",
+			"maxmin",
+			"uglify-js",
+			"uri-path"
+		],
+		"support": [],
+		"native": false
+	},
+	"gulp-plumber": {
+		"depend": [
+			"gulp-util"
+		],
+		"support": [],
+		"native": false
+	},
+	"istanbul": {
+		"depend": [
+			"abbrev",
+			"async",
+			"escodegen",
+			"esprima",
+			"fileset",
+			"handlebars",
+			"js-yaml",
+			"mkdirp",
+			"nopt",
+			"once",
+			"resolve",
+			"supports-color",
+			"which",
+			"wordwrap"
+		],
+		"support": [],
+		"native": false
+	},
+	"rimraf": {
+		"depend": [
+			"glob"
+		],
+		"support": [],
+		"native": false
+	},
+	"gulp-livereload": {
+		"depend": [
+			"chalk",
+			"debug",
+			"event-stream",
+			"gulp-util",
+			"lodash",
+			"mini-lr"
+		],
+		"support": [],
+		"native": false
+	},
+	"run-sequence": {
+		"depend": [
+			"chalk"
+		],
+		"support": [],
+		"native": false
+	},
+	"stylus": {
+		"depend": [
+			"css-parse",
+			"mkdirp",
+			"debug",
+			"sax",
+			"glob",
+			"source-map"
+		],
+		"support": [],
+		"native": false
+	},
+	"gulp-watch": {
+		"depend": [
+			"anymatch",
+			"chokidar",
+			"glob",
+			"glob2base",
+			"gulp-util",
+			"path-is-absolute",
+			"readable-stream",
+			"vinyl",
+			"vinyl-file"
+		],
+		"support": [],
+		"native": false
+	},
+	"ws": {
+		"depend": [
+			"options"
+		],
+		"support": [],
+		"native": false
+	},
+	"gulp-notify": {
+		"depend": [
+			"gulp-util",
+			"lodash",
+			"node-notifier",
+			"node",
+			"through2"
+		],
+		"support": [],
+		"native": false
+	},
+	"phantomjs": {
+		"depend": [
+			"extract-zip",
+			"fs-extra",
+			"hasha",
+			"kew",
+			"progress",
+			"request",
+			"request-progress",
+			"which"
+		],
+		"support": [],
+		"native": false
+	},
+	"bootstrap": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"supertest": {
+		"depend": [
+			"superagent"
+		],
+		"support": [],
+		"native": false
+	},
+	"bunyan": {
+		"depend": [
+			"dtrace-provider",
+			"mv",
+			"safe-json-stringify",
+			"moment"
+		],
+		"support": [],
+		"native": false
+	},
+	"node-sass": {
+		"depend": [
+			"async-foreach",
+			"chalk",
+			"cross-spawn-async",
+			"gaze",
+			"get-stdin",
+			"glob",
+			"meow",
+			"in-publish",
+			"mkdirp",
+			"nan",
+			"node-gyp",
+			"request",
+			"sass-graph"
+		],
+		"support": [],
+		"native": true
+	},
+	"config": {
+		"depend": [
+			"json5"
+		],
+		"support": [],
+		"native": false
+	},
+	"jsdom": {
+		"depend": [
+			"abab",
+			"acorn",
+			"acorn-globals",
+			"array-equal",
+			"cssom",
+			"cssstyle",
+			"escodegen",
+			"iconv-lite",
+			"nwmatcher",
+			"parse5",
+			"request",
+			"sax",
+			"symbol-tree",
+			"tough-cookie",
+			"webidl-conversions",
+			"whatwg-url",
+			"xml-name-validator"
+		],
+		"support": [],
+		"native": false
+	},
+	"gulp-if": {
+		"depend": [
+			"gulp-match",
+			"ternary-stream",
+			"through2"
+		],
+		"support": [],
+		"native": false
+	},
+	"dotenv": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"through2": {
+		"depend": [
+			"readable-stream"
+		],
+		"support": [],
+		"native": false
+	},
+	"co": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"cookie-parser": {
+		"depend": [
+			"cookie"
+		],
+		"support": [],
+		"native": false
+	},
+	"pg": {
+		"depend": [
+			"buffer-writer",
+			"generic-pool",
+			"packet-reader",
+			"pg-connection-string",
+			"pg-types",
+			"pgpass",
+			"semver"
+		],
+		"support": [],
+		"native": false
+	},
+	"handlebars": {
+		"depend": [
+			"async",
+			"optimist",
+			"source-map",
+			"uglify-js"
+		],
+		"support": [],
+		"native": false
+	},
+	"sinon": {
+		"depend": [
+			"formatio",
+			"util",
+			"lolex",
+			"samsam"
+		],
+		"support": [],
+		"native": false
+	},
+	"nconf": {
+		"depend": [
+			"async",
+			"ini",
+			"secure-keys",
+			"yargs"
+		],
+		"support": [],
+		"native": false
+	},
+	"helmet": {
+		"depend": [
+			"connect",
+			"dns-prefetch-control",
+			"dont-sniff-mimetype",
+			"frameguard",
+			"helmet-csp",
+			"hide-powered-by",
+			"hpkp",
+			"hsts",
+			"ienoopen",
+			"nocache",
+			"x-xss-protection"
+		],
+		"support": [],
+		"native": false
+	},
+	"eslint": {
+		"depend": [
+			"chalk",
+			"concat-stream",
+			"debug",
+			"doctrine",
+			"es6-map",
+			"escope",
+			"espree",
+			"estraverse",
+			"esutils",
+			"file-entry-cache",
+			"glob",
+			"globals",
+			"ignore",
+			"imurmurhash",
+			"inquirer",
+			"is-my-json-valid",
+			"is-resolvable",
+			"js-yaml",
+			"json-stable-stringify",
+			"lodash",
+			"mkdirp",
+			"optionator",
+			"path-is-absolute",
+			"path-is-inside",
+			"pluralize",
+			"progress",
+			"require-uncached",
+			"shelljs",
+			"strip-json-comments",
+			"table",
+			"text-table",
+			"user-home"
+		],
+		"support": [],
+		"native": false
+	},
+	"node-schedule": {
+		"depend": [
+			"cron-parser"
+		],
+		"support": [],
+		"native": false
+	},
+	"cors": {
+		"depend": [
+			"vary"
+		],
+		"support": [],
+		"native": false
+	},
+	"cron": {
+		"depend": [
+			"moment-timezone"
+		],
+		"support": [],
+		"native": false
+	},
+	"gulp-useref": {
+		"depend": [
+			"event-stream",
+			"glob",
+			"gulp-concat",
+			"gulp-if",
+			"gulp-util",
+			"is-relative-url",
+			"through2",
+			"useref",
+			"vinyl-fs"
+		],
+		"support": [],
+		"native": false
+	},
+	"n": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"optimist": {
+		"depend": [
+			"wordwrap"
+		],
+		"support": [],
+		"native": false
+	},
+	"tape": {
+		"depend": [
+			"deep-equal",
+			"defined",
+			"function-bind",
+			"glob",
+			"has",
+			"inherits",
+			"minimist",
+			"object-inspect",
+			"resolve",
+			"resumer",
+			"string",
+			"through"
+		],
+		"support": [],
+		"native": false
+	},
+	"multer": {
+		"depend": [
+			"append-field",
+			"busboy",
+			"concat-stream",
+			"mkdirp",
+			"object-assign",
+			"on-finished",
+			"type-is",
+			"xtend"
+		],
+		"support": [],
+		"native": false
+	},
+	"should": {
+		"depend": [
+			"should-equal",
+			"should-format",
+			"should-type"
+		],
+		"support": [],
+		"native": false
+	},
+	"npm-check": {
+		"depend": [
+			"babel-runtime",
+			"callsite-record",
+			"chalk",
+			"co",
+			"depcheck",
+			"execa",
+			"giturl",
+			"global-modules",
+			"globby",
+			"inquirer",
+			"is-ci",
+			"lodash",
+			"meow",
+			"merge-options",
+			"node-emoji",
+			"ora",
+			"package-json",
+			"path-exists",
+			"semver",
+			"semver-diff",
+			"text-table",
+			"throat",
+			"update-notifier"
+		],
+		"support": [],
+		"native": false
+	},
+	"gulp-minify-html": {
+		"depend": [
+			"gulp-util"
+		],
+		"support": [],
+		"native": false
+	},
+	"grunt-contrib-jshint": {
+		"depend": [
+			"chalk"
+		],
+		"support": [],
+		"native": false
+	},
+	"compression": {
+		"depend": [
+			"accepts",
+			"bytes",
+			"compressible",
+			"debug",
+			"on-headers",
+			"vary"
+		],
+		"support": [],
+		"native": false
+	},
+	"nock": {
+		"depend": [
+			"chai",
+			"debug",
+			"deep-equal",
+			"json-stringify-safe",
+			"lodash",
+			"mkdirp",
+			"propagate",
+			"qs"
+		],
+		"support": [],
+		"native": false
+	},
+	"typescript": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"watchify": {
+		"depend": [
+			"anymatch",
+			"browserify",
+			"chokidar",
+			"defined",
+			"outpipe",
+			"through2",
+			"xtend"
+		],
+		"support": [],
+		"native": false
+	},
+	"joi": {
+		"depend": [
+			"hoek",
+			"topo",
+			"isemail",
+			"moment"
+		],
+		"support": [],
+		"native": false
+	},
+	"gulp-changed": {
+		"depend": [
+			"gulp-util"
+		],
+		"support": [],
+		"native": false
+	},
+	"gulp-replace": {
+		"depend": [
+			"istextorbinary",
+			"readable-stream",
+			"replacestream"
+		],
+		"support": [],
+		"native": false
+	},
+	"gulp-less": {
+		"depend": [
+			"accord",
+			"gulp-util",
+			"less",
+			"object-assign",
+			"through2",
+			"vinyl-sourcemaps-apply"
+		],
+		"support": [],
+		"native": false
+	},
+	"jsonwebtoken": {
+		"depend": [
+			"joi"
+		],
+		"support": [],
+		"native": false
+	},
+	"aws-sdk": {
+		"depend": [
+			"sax",
+			"xml2js",
+			"xmlbuilder",
+			"jmespath"
+		],
+		"support": [],
+		"native": false
+	},
+	"grunt-contrib-cssmin": {
+		"depend": [
+			"chalk"
+		],
+		"support": [],
+		"native": false
+	},
+	"http-proxy": {
+		"depend": [
+			"eventemitter3"
+		],
+		"support": [],
+		"native": false
+	},
+	"backbone": {
+		"depend": [
+			"underscore"
+		],
+		"support": [],
+		"native": false
+	},
+	"mime": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"autoprefixer": {
+		"depend": [
+			"postcss-value-parser",
+			"normalize-range",
+			"num2fraction",
+			"browserslist",
+			"caniuse-db",
+			"postcss"
+		],
+		"support": [],
+		"native": false
+	},
+	"grunt-contrib-concat": {
+		"depend": [
+			"chalk"
+		],
+		"support": [],
+		"native": false
+	},
+	"grunt-contrib-clean": {
+		"depend": [
+			"async"
+		],
+		"support": [],
+		"native": false
+	},
+	"jscs": {
+		"depend": [
+			"chalk",
+			"cli-table",
+			"commander",
+			"cst",
+			"estraverse",
+			"exit",
+			"glob",
+			"htmlparser2",
+			"js-yaml",
+			"jscs-jsdoc",
+			"jscs-preset-wikimedia",
+			"jsonlint",
+			"lodash",
+			"minimatch",
+			"natural-compare",
+			"pathval",
+			"prompt",
+			"reserved-words",
+			"resolve",
+			"strip-bom",
+			"strip-json-comments",
+			"to-double-quotes",
+			"to-single-quotes",
+			"vow",
+			"vow-fs",
+			"xmlbuilder"
+		],
+		"support": [],
+		"native": false
+	},
+	"qs": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"gulp-uncss": {
+		"depend": [
+			"gulp-util",
+			"object-assign",
+			"uncss"
+		],
+		"support": [],
+		"native": false
+	},
+	"semver": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"log4js": {
+		"depend": [
+			"readable-stream"
+		],
+		"support": [],
+		"native": false
+	},
+	"prompt": {
+		"depend": [
+			"colors",
+			"pkginfo",
+			"read",
+			"revalidator",
+			"utile",
+			"winston"
+		],
+		"support": [],
+		"native": false
+	},
+	"gulp-connect": {
+		"depend": [
+			"connect",
+			"connect-livereload",
+			"event-stream",
+			"gulp-util",
+			"tiny-lr",
+			"http2"
+		],
+		"support": [],
+		"native": false
+	},
+	"react-router": {
+		"depend": [
+			"history",
+			"hoist-non-react-statics",
+			"invariant",
+			"warning"
+		],
+		"support": [],
+		"native": false
+	},
+	"uuid": {
+		"depend": [],
+		"support": [],
+		"native": true
+	},
+	"ionic": {
+		"depend": [
+			"async",
+			"cheerio",
+			"cli-table",
+			"colors",
+			"connect",
+			"connect-livereload",
+			"crc",
+			"cross-spawn",
+			"event-stream",
+			"expand-tilde",
+			"finalhandler",
+			"form-data",
+			"gulp",
+			"ionic-app-lib",
+			"moment",
+			"ncp",
+			"npm",
+			"open",
+			"optimist",
+			"progress",
+			"prompt",
+			"proxy-middleware",
+			"q",
+			"request",
+			"semver",
+			"serve-static",
+			"shelljs",
+			"tiny-lr-fork",
+			"underscore",
+			"unzip",
+			"vinyl-fs",
+			"xml2js",
+			"ionic-cordova-lib",
+			"nan",
+			"node-gyp",
+			"node-sass",
+			"node-uuid"
+		],
+		"support": [],
+		"native": false
+	},
+	"through": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"angular2": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"event-stream": {
+		"depend": [
+			"through",
+			"duplexer",
+			"from",
+			"map-stream",
+			"pause-stream",
+			"split",
+			"stream-combiner"
+		],
+		"support": [],
+		"native": false
+	},
+	"selenium-webdriver": {
+		"depend": [
+			"adm-zip",
+			"rimraf",
+			"tmp",
+			"ws",
+			"xml2js"
+		],
+		"support": [],
+		"native": false
+	},
+	"redux": {
+		"depend": [
+			"lodash",
+			"lodash-es",
+			"loose-envify",
+			"symbol-observable"
+		],
+		"support": [],
+		"native": false
+	},
+	"node-notifier": {
+		"depend": [
+			"cli-usage",
+			"growly",
+			"lodash",
+			"minimist",
+			"semver",
+			"shellwords",
+			"which"
+		],
+		"support": [],
+		"native": false
+	},
+	"faker": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"d3": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"gulp-jade": {
+		"depend": [
+			"gulp-util"
+		],
+		"support": [],
+		"native": false
+	},
+	"gulp-rev": {
+		"depend": [
+			"gulp-util",
+			"modify-filename",
+			"object-assign",
+			"rev-hash",
+			"rev-path",
+			"sort-keys",
+			"through2",
+			"vinyl-file"
+		],
+		"support": [],
+		"native": false
+	},
+	"chokidar": {
+		"depend": [
+			"anymatch",
+			"async-each",
+			"glob-parent",
+			"inherits",
+			"is-binary-path",
+			"is-glob",
+			"path-is-absolute",
+			"readdirp",
+			"fsevents"
+		],
+		"support": [],
+		"native": false
+	},
+	"grunt-contrib-copy": {
+		"depend": [
+			"chalk"
+		],
+		"support": [],
+		"native": false
+	},
+	"mssql": {
+		"depend": [
+			"tedious",
+			"generic-pool",
+			"promise"
+		],
+		"support": [],
+		"native": false
+	},
+	"csv": {
+		"depend": [
+			"csv-generate",
+			"csv-parse",
+			"stream-transform",
+			"csv-stringify"
+		],
+		"support": [],
+		"native": false
+	},
+	"supervisor": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"gulp-filter": {
+		"depend": [
+			"gulp-util",
+			"multimatch",
+			"streamfilter"
+		],
+		"support": [],
+		"native": false
+	},
+	"xlsx": {
+		"depend": [
+			"ssf",
+			"codepage",
+			"cfb",
+			"jszip",
+			"crc-32",
+			"adler-32",
+			"commander"
+		],
+		"support": [],
+		"native": false
+	},
+	"agenda": {
+		"depend": [
+			"cron",
+			"date",
+			"human-interval",
+			"moment-timezone",
+			"mongodb"
+		],
+		"support": [],
+		"native": false
+	},
+	"promise": {
+		"depend": [
+			"asap"
+		],
+		"support": [],
+		"native": false
+	},
+	"gulp-htmlmin": {
+		"depend": [
+			"bufferstreams",
+			"gulp-util",
+			"html-minifier",
+			"object-assign",
+			"readable-stream",
+			"tryit"
+		],
+		"support": [],
+		"native": false
+	},
+	"sqlite3": {
+		"depend": [
+			"nan",
+			".",
+			"node-uuid"
+		],
+		"support": [],
+		"native": false
+	},
+	"gulp-babel": {
+		"depend": [
+			"babel-core",
+			"gulp-util",
+			"object-assign",
+			"replace-ext",
+			"through2",
+			"vinyl-sourcemaps-apply"
+		],
+		"support": [],
+		"native": false
+	},
+	"natural": {
+		"depend": [
+			"sylvester",
+			"apparatus",
+			"underscore",
+			"log4js"
+		],
+		"support": [],
+		"native": false
+	},
+	"shortid": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"kue": {
+		"depend": [
+			"body-parser",
+			"express",
+			"jade",
+			"lodash",
+			"lodash-deep",
+			"nib",
+			"node-redis-warlock",
+			"redis",
+			"reds",
+			"stylus",
+			"yargs"
+		],
+		"support": [],
+		"native": false
+	},
+	"gulp-angular-templatecache": {
+		"depend": [
+			"event-stream",
+			"path",
+			"gulp-util",
+			"js-string-escape",
+			"gulp-footer",
+			"gulp-header",
+			"gulp-concat"
+		],
+		"support": [],
+		"native": false
+	},
+	"main-bower-files": {
+		"depend": [
+			"chalk",
+			"extend",
+			"globby",
+			"multimatch",
+			"path-exists",
+			"strip-json-comments",
+			"vinyl-fs"
+		],
+		"support": [],
+		"native": false
+	},
+	"concat-stream": {
+		"depend": [
+			"inherits",
+			"typedarray",
+			"readable-stream"
+		],
+		"support": [],
+		"native": false
+	},
+	"gulp-ruby-sass": {
+		"depend": [
+			"convert-source-map",
+			"cross-spawn-async",
+			"dargs",
+			"each-async",
+			"escape-string-regexp",
+			"glob",
+			"glob2base",
+			"gulp-util",
+			"md5-hex",
+			"object-assign",
+			"os-tmpdir",
+			"path-exists",
+			"rimraf",
+			"vinyl-fs"
+		],
+		"support": [],
+		"native": false
+	},
+	"twitter": {
+		"depend": [
+			"deep-extend"
+		],
+		"support": [],
+		"native": false
+	},
+	"standard": {
+		"depend": [
+			"eslint",
+			"eslint-config-standard",
+			"eslint-config-standard-jsx",
+			"eslint-plugin-promise",
+			"eslint-plugin-react",
+			"eslint-plugin-standard",
+			"standard-engine"
+		],
+		"support": [],
+		"native": false
+	},
+	"json-server": {
+		"depend": [
+			"body-parser",
+			"chalk",
+			"compression",
+			"connect-pause",
+			"cors",
+			"errorhandler",
+			"express",
+			"got",
+			"lodash",
+			"lowdb",
+			"method-override",
+			"morgan",
+			"node-uuid",
+			"object-assign",
+			"pluralize",
+			"server-destroy",
+			"underscore-db",
+			"update-notifier",
+			"yargs"
+		],
+		"support": [],
+		"native": false
+	},
+	"gulp-clean": {
+		"depend": [
+			"rimraf"
+		],
+		"support": [],
+		"native": false
+	},
+	"request-promise": {
+		"depend": [
+			"bluebird"
+		],
+		"support": [],
+		"native": false
+	},
+	"blessed": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"jsdoc": {
+		"depend": [
+			"async",
+			"bluebird",
+			"catharsis",
+			"escape-string-regexp",
+			"espree",
+			"js2xmlparser",
+			"marked",
+			"requizzle",
+			"strip-json-comments",
+			"taffydb",
+			"underscore",
+			"wrench"
+		],
+		"support": [],
+		"native": false
+	},
+	"classnames": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"grunt-contrib-imagemin": {
+		"depend": [
+			"async",
+			"chalk",
+			"gulp-rename",
+			"imagemin",
+			"pretty-bytes"
+		],
+		"support": [],
+		"native": false
+	},
+	"canvas": {
+		"depend": [
+			"nan"
+		],
+		"support": [],
+		"native": true
+	},
+	"vinyl-source-stream": {
+		"depend": [
+			"vinyl"
+		],
+		"support": [],
+		"native": false
+	},
+	"immutable": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"gulp-html-replace": {
+		"depend": [
+			"clone",
+			"object-assign",
+			"readable-stream",
+			"slash"
+		],
+		"support": [],
+		"native": false
+	},
+	"gulp-shell": {
+		"depend": [
+			"async",
+			"gulp-util",
+			"lodash",
+			"through2"
+		],
+		"support": [],
+		"native": false
+	},
+	"flux": {
+		"depend": [
+			"fbemitter",
+			"fbjs",
+			"immutable"
+		],
+		"support": [],
+		"native": false
+	},
+	"lru-cache": {
+		"depend": [
+			"pseudomap"
+		],
+		"support": [],
+		"native": false
+	},
+	"jsonfile": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"progress": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"postcss": {
+		"depend": [
+			"supports-color",
+			"source-map",
+			"js-base64"
+		],
+		"support": [],
+		"native": false
+	},
+	"jshint-stylish": {
+		"depend": [
+			"chalk",
+			"log-symbols",
+			"plur",
+			"string-length",
+			"text-table",
+			"beeper"
+		],
+		"support": [],
+		"native": false
+	},
+	"split": {
+		"depend": [
+			"through"
+		],
+		"support": [],
+		"native": false
+	},
+	"string": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"knex": {
+		"depend": [
+			"bluebird",
+			"chalk",
+			"commander",
+			"debug",
+			"inherits",
+			"interpret",
+			"liftoff",
+			"lodash",
+			"minimist",
+			"mkdirp",
+			"pg-connection-string",
+			"pool2",
+			"readable-stream",
+			"tildify",
+			"v8flags"
+		],
+		"support": [],
+		"native": false
+	},
+	"slug": {
+		"depend": [
+			"unicode"
+		],
+		"support": [],
+		"native": false
+	},
+	"grunt-contrib-sass": {
+		"depend": [
+			"async",
+			"chalk",
+			"cross-spawn",
+			"dargs",
+			"which"
+		],
+		"support": [],
+		"native": false
+	},
+	"wiredep": {
+		"depend": [
+			"bower-config",
+			"glob",
+			"lodash",
+			"propprop",
+			"through2",
+			"wiredep-cli"
+		],
+		"support": [],
+		"native": false
+	},
+	"require-dir": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"swig": {
+		"depend": [
+			"uglify-js"
+		],
+		"support": [],
+		"native": false
+	},
+	"bcryptjs": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"bcrypt-nodejs": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"imagemin": {
+		"depend": [
+			"globby",
+			"mkdirp",
+			"pify",
+			"promise"
+		],
+		"support": [],
+		"native": false
+	},
+	"gulp-typescript": {
+		"depend": [
+			"gulp-util",
+			"source-map",
+			"through2",
+			"typescript",
+			"vinyl-fs"
+		],
+		"support": [],
+		"native": false
+	},
+	"gulp-file-include": {
+		"depend": [
+			"balanced-match",
+			"concat-stream",
+			"extend",
+			"flatnest",
+			"gulp-util",
+			"through2"
+		],
+		"support": [],
+		"native": false
+	},
+	"load-grunt-tasks": {
+		"depend": [
+			"arrify",
+			"multimatch",
+			"pkg-up",
+			"resolve-pkg"
+		],
+		"support": [],
+		"native": false
+	},
+	"connect-redis": {
+		"depend": [
+			"debug"
+		],
+		"support": [],
+		"native": false
+	},
+	"open": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"serve-favicon": {
+		"depend": [
+			"etag",
+			"fresh",
+			"ms",
+			"parseurl"
+		],
+		"support": [],
+		"native": false
+	},
+	"csurf": {
+		"depend": [
+			"cookie",
+			"cookie-signature",
+			"csrf",
+			"http-errors"
+		],
+		"support": [],
+		"native": false
+	},
+	"github": {
+		"depend": [
+			"mime"
+		],
+		"support": [],
+		"native": false
+	},
+	"gulp-nodemon": {
+		"depend": [
+			"gulp",
+			"nodemon",
+			"event-stream",
+			"colors"
+		],
+		"support": [],
+		"native": false
+	},
+	"requirejs": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"gulp-ng-annotate": {
+		"depend": [
+			"bufferstreams",
+			"gulp-util",
+			"merge",
+			"ng-annotate",
+			"through2",
+			"vinyl-sourcemaps-apply"
+		],
+		"support": [],
+		"native": false
+	},
+	"oauth": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"connect-mongo": {
+		"depend": [
+			"bluebird"
+		],
+		"support": [],
+		"native": false
+	},
+	"gulp-iconfont": {
+		"depend": [
+			"gulp-cond",
+			"gulp-spawn",
+			"gulp-svg2ttf",
+			"gulp-svgicons2svgfont",
+			"gulp-ttf2eot",
+			"gulp-ttf2woff",
+			"gulp-ttf2woff2",
+			"gulp-util",
+			"plexer",
+			"streamfilter"
+		],
+		"support": [],
+		"native": false
+	},
+	"consolidate": {
+		"depend": [
+			"bluebird"
+		],
+		"support": [],
+		"native": false
+	},
+	"grunt-contrib-less": {
+		"depend": [
+			"async",
+			"chalk",
+			"less",
+			"lodash"
+		],
+		"support": [],
+		"native": false
+	},
+	"minimatch": {
+		"depend": [
+			"brace-expansion"
+		],
+		"support": [],
+		"native": false
+	},
+	"generator-angular-fullstack": {
+		"depend": [
+			"babel-plugin-syntax-class-properties",
+			"babel-plugin-syntax-flow",
+			"babel-plugin-transform-flow-strip-types",
+			"bluebird",
+			"chalk",
+			"generator-ng-component",
+			"glob",
+			"gulp-babel",
+			"gulp-beautify",
+			"gulp-filter",
+			"insight",
+			"lodash",
+			"semver",
+			"underscore",
+			"yeoman-generator",
+			"yeoman-welcome"
+		],
+		"support": [],
+		"native": false
+	},
+	"jwt-simple": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"node-cache": {
+		"depend": [
+			"lodash"
+		],
+		"support": [],
+		"native": false
+	},
+	"iconv-lite": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"download": {
+		"depend": [
+			"caw",
+			"concat-stream",
+			"each-async",
+			"filenamify",
+			"got",
+			"gulp-decompress",
+			"gulp-rename",
+			"is-url",
+			"object-assign",
+			"read-all-stream",
+			"readable-stream",
+			"stream-combiner2",
+			"vinyl",
+			"vinyl-fs",
+			"ware"
+		],
+		"support": [],
+		"native": false
+	},
+	"babelify": {
+		"depend": [
+			"babel-core"
+		],
+		"support": [],
+		"native": false
+	},
+	"nedb": {
+		"depend": [
+			"async",
+			"binary-search-tree",
+			"localforage",
+			"mkdirp",
+			"underscore"
+		],
+		"support": [],
+		"native": false
+	},
+	"johnny-five": {
+		"depend": [
+			"chalk",
+			"color-convert",
+			"ease-component",
+			"es6-shim",
+			"lodash",
+			"nanotimer",
+			"temporal",
+			"browser-serialport",
+			"firmata",
+			"serialport"
+		],
+		"support": [],
+		"native": false
+	},
+	"html-webpack-plugin": {
+		"depend": [
+			"bluebird",
+			"html-minifier",
+			"loader-utils",
+			"lodash",
+			"pretty-error",
+			"toposort"
+		],
+		"support": [],
+		"native": false
+	},
+	"react-tools": {
+		"depend": [
+			"commoner"
+		],
+		"support": [],
+		"native": false
+	},
+	"protractor": {
+		"depend": [
+			"adm-zip",
+			"chalk",
+			"glob",
+			"jasmine",
+			"jasminewd2",
+			"optimist",
+			"q",
+			"request",
+			"saucelabs",
+			"selenium-webdriver",
+			"source-map-support"
+		],
+		"support": [],
+		"native": false
+	},
+	"clean-css": {
+		"depend": [
+			"commander"
+		],
+		"support": [],
+		"native": false
+	},
+	"live-server": {
+		"depend": [
+			"colors",
+			"connect",
+			"cors",
+			"event-stream",
+			"faye-websocket",
+			"http-auth",
+			"morgan",
+			"object-assign",
+			"opn",
+			"send",
+			"serve-index",
+			"watchr"
+		],
+		"support": [],
+		"native": false
+	},
+	"soap": {
+		"depend": [
+			"compress",
+			"debug",
+			"ejs",
+			"lodash",
+			"node-uuid",
+			"optional",
+			"request",
+			"sax",
+			"selectn",
+			"strip-bom",
+			"xml-crypto",
+			"ursa"
+		],
+		"support": [],
+		"native": false
+	},
+	"htmlparser2": {
+		"depend": [
+			"domelementtype",
+			"domhandler",
+			"domutils",
+			"entities",
+			"readable-stream"
+		],
+		"support": [],
+		"native": false
+	},
+	"js-yaml": {
+		"depend": [
+			"argparse"
+		],
+		"support": [],
+		"native": false
+	},
+	"node-oauth2-server": {
+		"depend": [
+			"basic-auth"
+		],
+		"support": [],
+		"native": false
+	},
+	"connect-flash": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"ssh2": {
+		"depend": [
+			"ssh2-streams"
+		],
+		"support": [],
+		"native": true
+	},
+	"gulp-csso": {
+		"depend": [
+			"csso",
+			"gulp-util",
+			"vinyl-sourcemaps-apply"
+		],
+		"support": [],
+		"native": false
+	},
+	"watch": {
+		"depend": [
+			"exec-sh"
+		],
+		"support": [],
+		"native": false
+	},
+	"mongo-express": {
+		"depend": [
+			"async",
+			"basic-auth-connect",
+			"body-parser",
+			"busboy",
+			"cli-color",
+			"commander",
+			"consolidate",
+			"cookie-parser",
+			"csurf",
+			"errorhandler",
+			"express",
+			"express-session",
+			"gridfs-stream",
+			"method-override",
+			"mongodb",
+			"morgan",
+			"serve-favicon",
+			"snyk",
+			"swig",
+			"underscore",
+			"update-notifier"
+		],
+		"support": [],
+		"native": false
+	},
+	"rewire": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"npm-run-all": {
+		"depend": [
+			"chalk",
+			"cross-spawn",
+			"minimatch",
+			"object-assign",
+			"pinkie-promise",
+			"ps-tree",
+			"read-pkg",
+			"read-pkg-up",
+			"shell-quote",
+			"string"
+		],
+		"support": [],
+		"native": false
+	},
+	"rc": {
+		"depend": [
+			"deep-extend",
+			"ini",
+			"minimist",
+			"strip-json-comments"
+		],
+		"support": [],
+		"native": false
+	},
+	"gulp-size": {
+		"depend": [
+			"chalk",
+			"gulp-util",
+			"gzip-size",
+			"object-assign",
+			"pretty-bytes",
+			"stream-counter",
+			"through2"
+		],
+		"support": [],
+		"native": false
+	},
+	"font-awesome": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"rx": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"material-ui": {
+		"depend": [
+			"inline-style-prefixer",
+			"keycode",
+			"lodash",
+			"react-addons-create-fragment",
+			"react-addons-transition-group",
+			"react-addons-update",
+			"react-event-listener",
+			"recompose",
+			"simple-assign",
+			"warning"
+		],
+		"support": [],
+		"native": false
+	},
+	"crawler": {
+		"depend": [
+			"cheerio",
+			"generic-pool",
+			"iconv",
+			"iconv-lite",
+			"jschardet",
+			"lodash",
+			"request"
+		],
+		"support": [],
+		"native": false
+	},
+	"busboy": {
+		"depend": [
+			"dicer"
+		],
+		"support": [],
+		"native": false
+	},
+	"bl": {
+		"depend": [
+			"readable-stream"
+		],
+		"support": [],
+		"native": false
+	},
+	"JSONStream": {
+		"depend": [
+			"jsonparse"
+		],
+		"support": [],
+		"native": false
+	},
+	"levelup": {
+		"depend": [
+			"deferred-leveldown",
+			"level-codec",
+			"level-errors",
+			"level-iterator-stream",
+			"prr",
+			"semver",
+			"xtend"
+		],
+		"support": [],
+		"native": false
+	},
+	"waterline": {
+		"depend": [
+			"anchor",
+			"async",
+			"bluebird",
+			"deep-diff",
+			"lodash",
+			"prompt",
+			"switchback",
+			"waterline-criteria",
+			"waterline-schema"
+		],
+		"support": [],
+		"native": false
+	},
+	"i18n": {
+		"depend": [
+			"debug",
+			"make-plural",
+			"math-interval-parser",
+			"messageformat",
+			"mustache",
+			"sprintf-js"
+		],
+		"support": [],
+		"native": false
+	},
+	"memwatch": {
+		"depend": [],
+		"support": [],
+		"native": true
+	},
+	"electron-packager": {
+		"depend": [
+			"asar",
+			"electron-download",
+			"electron-osx-sign",
+			"extract-zip",
+			"fs-extra",
+			"get-package-info",
+			"minimist",
+			"plist",
+			"rcedit",
+			"resolve",
+			"run-series"
+		],
+		"support": [],
+		"native": false
+	},
+	"express-jwt": {
+		"depend": [
+			"async",
+			"express-unless",
+			"jsonwebtoken",
+			"lodash"
+		],
+		"support": [],
+		"native": false
+	},
+	"dateformat": {
+		"depend": [
+			"get-stdin"
+		],
+		"support": [],
+		"native": false
+	},
+	"html-minifier": {
+		"depend": [
+			"change-case",
+			"clean-css",
+			"commander",
+			"he",
+			"ncname",
+			"relateurl",
+			"uglify-js"
+		],
+		"support": [],
+		"native": false
+	},
+	"grunt-concurrent": {
+		"depend": [
+			"arrify",
+			"async",
+			"indent-string",
+			"pad-stream"
+		],
+		"support": [],
+		"native": false
+	},
+	"gulp-git": {
+		"depend": [
+			"any-shell-escape",
+			"gulp-util",
+			"require-dir",
+			"through2"
+		],
+		"support": [],
+		"native": false
+	},
+	"socket.io-client": {
+		"depend": [
+			"debug",
+			"engine",
+			"component-bind",
+			"component-emitter",
+			"object-component",
+			"socket",
+			"has-binary",
+			"indexof",
+			"parseuri",
+			"to-array",
+			"backo2"
+		],
+		"support": [],
+		"native": false
+	},
+	"js-beautify": {
+		"depend": [
+			"config-chain"
+		],
+		"support": [],
+		"native": false
+	},
+	"passport-local": {
+		"depend": [
+			"passport-strategy"
+		],
+		"support": [],
+		"native": false
+	},
+	"cli": {
+		"depend": [
+			"glob"
+		],
+		"support": [],
+		"native": false
+	},
+	"time-grunt": {
+		"depend": [
+			"chalk",
+			"date-time",
+			"figures",
+			"hooker",
+			"number-is-nan",
+			"pretty-ms",
+			"text-table"
+		],
+		"support": [],
+		"native": false
+	},
+	"node-gyp": {
+		"depend": [
+			"fstream",
+			"glob",
+			"graceful-fs",
+			"minimatch",
+			"mkdirp",
+			"nopt",
+			"npmlog",
+			"osenv",
+			"path-array",
+			"request",
+			"rimraf",
+			"semver",
+			"tar",
+			"which"
+		],
+		"support": [],
+		"native": true
+	},
+	"gulp-compass": {
+		"depend": [
+			"gulp-util"
+		],
+		"support": [],
+		"native": false
+	},
+	"gulp-stylus": {
+		"depend": [
+			"accord",
+			"gulp-util",
+			"lodash",
+			"replace-ext",
+			"stylus",
+			"through2",
+			"vinyl-sourcemaps-apply"
+		],
+		"support": [],
+		"native": false
+	},
+	"eslint-config-airbnb": {
+		"depend": [
+			"eslint-config-airbnb-base"
+		],
+		"support": [],
+		"native": false
+	},
+	"benchmark": {
+		"depend": [
+			"lodash"
+		],
+		"support": [],
+		"native": false
+	},
+	"boom": {
+		"depend": [
+			"hoek"
+		],
+		"support": [],
+		"native": false
+	},
+	"gulp-browserify": {
+		"depend": [
+			"browserify",
+			"gulp-util",
+			"browserify-shim",
+			"readable-stream",
+			"through2"
+		],
+		"support": [],
+		"native": false
+	},
+	"dnode": {
+		"depend": [
+			"dnode-protocol"
+		],
+		"support": [],
+		"native": false
+	},
+	"grunt-autoprefixer": {
+		"depend": [
+			"autoprefixer-core",
+			"chalk",
+			"diff",
+			"postcss"
+		],
+		"support": [],
+		"native": false
+	},
+	"twit": {
+		"depend": [
+			"bluebird"
+		],
+		"support": [],
+		"native": false
+	},
+	"webworker-threads": {
+		"depend": [
+			"bindings"
+		],
+		"support": [],
+		"native": true
+	},
+	"serve-static": {
+		"depend": [
+			"escape-html"
+		],
+		"support": [],
+		"native": false
+	},
+	"gulp-preprocess": {
+		"depend": [
+			"lodash"
+		],
+		"support": [],
+		"native": false
+	},
+	"ghooks": {
+		"depend": [
+			"execa",
+			"findup",
+			"lodash",
+			"manage-path",
+			"opt-cli",
+			"path-exists",
+			"spawn-command"
+		],
+		"support": [],
+		"native": false
+	},
+	"when": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"gulp-webserver": {
+		"depend": [
+			"connect",
+			"connect-livereload",
+			"gulp-util",
+			"isarray",
+			"node",
+			"open",
+			"proxy-middleware",
+			"serve-index",
+			"serve-static",
+			"through2",
+			"tiny-lr",
+			"watch"
+		],
+		"support": [],
+		"native": false
+	},
+	"esprima": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"tap": {
+		"depend": [
+			"bluebird",
+			"clean-yaml-object",
+			"codecov",
+			"coveralls",
+			"deeper",
+			"foreground-child",
+			"glob",
+			"isexe",
+			"js-yaml",
+			"nyc",
+			"only-shallow",
+			"opener",
+			"readable-stream",
+			"signal-exit",
+			"stack-utils",
+			"supports-color",
+			"tap-mocha-reporter",
+			"tap-parser",
+			"tmatch"
+		],
+		"support": [],
+		"native": false
+	},
+	"babel-core": {
+		"depend": [
+			"babel-code-frame",
+			"babel-generator",
+			"babel-helpers",
+			"babel-messages",
+			"babel-template",
+			"babel-runtime",
+			"babel-register",
+			"babel-traverse",
+			"babel-types",
+			"babylon",
+			"convert-source-map",
+			"debug",
+			"json5",
+			"lodash",
+			"minimatch",
+			"path-exists",
+			"path-is-absolute",
+			"private",
+			"shebang-regex",
+			"slash",
+			"source-map"
+		],
+		"support": [],
+		"native": false
+	},
+	"html-pdf": {
+		"depend": [
+			"phantomjs-prebuilt"
+		],
+		"support": [],
+		"native": false
+	},
+	"react-native": {
+		"depend": [
+			"absolute-path",
+			"art",
+			"babel-core",
+			"babel-plugin-external-helpers",
+			"babel-polyfill",
+			"babel-preset-react-native",
+			"babel-register",
+			"babel-types",
+			"babylon",
+			"base64-js",
+			"bser",
+			"chalk",
+			"connect",
+			"core-js",
+			"debug",
+			"event-target-shim",
+			"fbjs",
+			"fbjs-scripts",
+			"graceful-fs",
+			"image-size",
+			"immutable",
+			"joi",
+			"json-stable-stringify",
+			"json5",
+			"jstransform",
+			"lodash",
+			"mkdirp",
+			"module-deps",
+			"node-fetch",
+			"node-haste",
+			"opn",
+			"optimist",
+			"progress",
+			"promise",
+			"react-clone-referenced-element",
+			"react-timer-mixin",
+			"react-transform-hmr",
+			"rebound",
+			"regenerator-runtime",
+			"sane",
+			"semver",
+			"source-map",
+			"stacktrace-parser",
+			"temp",
+			"uglify-js",
+			"wordwrap",
+			"worker-farm",
+			"ws",
+			"yargs",
+			"yeoman-environment",
+			"yeoman-generator"
+		],
+		"support": [],
+		"native": true
+	},
+	"cli-table": {
+		"depend": [
+			"colors"
+		],
+		"support": [],
+		"native": false
+	},
+	"gulp-webpack": {
+		"depend": [
+			"memory-fs",
+			"vinyl",
+			"through",
+			"webpack",
+			"gulp-util"
+		],
+		"support": [],
+		"native": false
+	},
+	"ms": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"update-notifier": {
+		"depend": [
+			"ansi-align",
+			"boxen",
+			"chalk",
+			"configstore",
+			"is-npm",
+			"latest-version",
+			"semver-diff",
+			"xdg-basedir"
+		],
+		"support": [],
+		"native": false
+	},
+	"ncp": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"gulp-gzip": {
+		"depend": [
+			"bytes",
+			"gulp-util",
+			"stream-to-array",
+			"through2"
+		],
+		"support": [],
+		"native": false
+	},
+	"gulp-coffee": {
+		"depend": [
+			"coffee-script",
+			"gulp-util",
+			"merge",
+			"through2",
+			"vinyl-sourcemaps-apply"
+		],
+		"support": [],
+		"native": false
+	},
+	"axios": {
+		"depend": [
+			"follow-redirects"
+		],
+		"support": [],
+		"native": false
+	},
+	"express-handlebars": {
+		"depend": [
+			"glob",
+			"graceful-fs",
+			"handlebars",
+			"object",
+			"promise"
+		],
+		"support": [],
+		"native": false
+	},
+	"serialport": {
+		"depend": [
+			"bindings",
+			"commander",
+			"debug",
+			"es6-promise",
+			"nan",
+			"node-pre-gyp",
+			"object",
+			"."
+		],
+		"support": [],
+		"native": false
+	},
+	"bookshelf": {
+		"depend": [
+			"bluebird",
+			"babel-runtime",
+			"chalk",
+			"create-error",
+			"inflection",
+			"inherits",
+			"lodash"
+		],
+		"support": [],
+		"native": false
+	},
+	"grunt-contrib-connect": {
+		"depend": [
+			"async",
+			"connect",
+			"connect-livereload",
+			"http2",
+			"morgan",
+			"opn",
+			"portscanner",
+			"serve-index",
+			"serve-static"
+		],
+		"support": [],
+		"native": false
+	},
+	"gulp-header": {
+		"depend": [
+			"gulp-util",
+			"object-assign",
+			"through2",
+			"concat-with-sourcemaps"
+		],
+		"support": [],
+		"native": false
+	},
+	"express-validator": {
+		"depend": [
+			"bluebird"
+		],
+		"support": [],
+		"native": false
+	},
+	"highlight.js": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"nativefier": {
+		"depend": [
+			"async",
+			"axios",
+			"babel-polyfill",
+			"cheerio",
+			"commander",
+			"electron-packager",
+			"gitcloud",
+			"hasbin",
+			"lodash",
+			"loglevel",
+			"ncp",
+			"page-icon",
+			"progress",
+			"request",
+			"sanitize-filename",
+			"shelljs",
+			"source-map-support",
+			"tmp",
+			"validator"
+		],
+		"support": [],
+		"native": false
+	},
+	"gulp.spritesmith": {
+		"depend": [
+			"async",
+			"gulp-util",
+			"minimatch",
+			"spritesheet-templates",
+			"spritesmith",
+			"through2",
+			"underscore",
+			"url2"
+		],
+		"support": [],
+		"native": false
+	},
+	"imagemin-pngquant": {
+		"depend": [
+			"exec-buffer",
+			"is-png",
+			"pngquant-bin"
+		],
+		"support": [],
+		"native": false
+	},
+	"gulp-eslint": {
+		"depend": [
+			"bufferstreams",
+			"eslint",
+			"gulp-util",
+			"object-assign"
+		],
+		"support": [],
+		"native": false
+	},
+	"whatwg-fetch": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"cookie": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"url": {
+		"depend": [
+			"punycode"
+		],
+		"support": [],
+		"native": false
+	},
+	"multiparty": {
+		"depend": [
+			"fd-slicer"
+		],
+		"support": [],
+		"native": false
+	},
+	"markdown": {
+		"depend": [
+			"nopt"
+		],
+		"support": [],
+		"native": false
+	},
+	"mqtt": {
+		"depend": [
+			"commist",
+			"concat-stream",
+			"end-of-stream",
+			"help-me",
+			"inherits",
+			"minimist",
+			"mqtt-connection",
+			"mqtt-packet",
+			"pump",
+			"readable-stream",
+			"reinterval",
+			"split2",
+			"websocket-stream",
+			"xtend"
+		],
+		"support": [],
+		"native": false
+	},
+	"firebase": {
+		"depend": [
+			"es6-promise",
+			"faye-websocket",
+			"jsonwebtoken"
+		],
+		"support": [],
+		"native": false
+	},
+	"loadtest": {
+		"depend": [
+			"prototypes",
+			"agentkeepalive",
+			"log",
+			"stdio",
+			"websocket",
+			"testing"
+		],
+		"support": [],
+		"native": false
+	},
+	"fluent-ffmpeg": {
+		"depend": [
+			"async"
+		],
+		"support": [],
+		"native": false
+	},
+	"grunt-newer": {
+		"depend": [
+			"async"
+		],
+		"support": [],
+		"native": false
+	},
+	"x-ray": {
+		"depend": [
+			"batch",
+			"chalk",
+			"cheerio",
+			"debug",
+			"enstore",
+			"is-url",
+			"isobject",
+			"object-assign",
+			"x-ray-crawler",
+			"x-ray-parse"
+		],
+		"support": [],
+		"native": false
+	},
+	"underscore.string": {
+		"depend": [
+			"sprintf-js"
+		],
+		"support": [],
+		"native": false
+	},
+	"crypto-js": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"got": {
+		"depend": [
+			"create-error-class",
+			"duplexer3",
+			"get-stream",
+			"is-plain-obj",
+			"is-redirect",
+			"is-retry-allowed",
+			"is-stream",
+			"lowercase-keys",
+			"node-status-codes",
+			"timed-out",
+			"unzip-response",
+			"url-parse-lax"
+		],
+		"support": [],
+		"native": false
+	},
+	"nopt": {
+		"depend": [
+			"abbrev"
+		],
+		"support": [],
+		"native": false
+	},
+	"object-assign": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"gulp-newer": {
+		"depend": [
+			"kew"
+		],
+		"support": [],
+		"native": false
+	},
+	"xtend": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"s3": {
+		"depend": [
+			"aws-sdk",
+			"fd-slicer",
+			"findit2",
+			"graceful-fs",
+			"mime",
+			"mkdirp",
+			"pend",
+			"rimraf",
+			"streamsink"
+		],
+		"support": [],
+		"native": false
+	},
+	"cli-color": {
+		"depend": [
+			"ansi-regex",
+			"d",
+			"es5-ext",
+			"es6-iterator",
+			"memoizee",
+			"timers-ext"
+		],
+		"support": [],
+		"native": false
+	},
+	"sanitize-html": {
+		"depend": [
+			"htmlparser2",
+			"regexp-quote",
+			"xtend"
+		],
+		"support": [],
+		"native": false
+	},
+	"gulp-bump": {
+		"depend": [
+			"bump-regex",
+			"plugin-error",
+			"plugin-log",
+			"semver",
+			"through2"
+		],
+		"support": [],
+		"native": false
+	},
+	"zmq": {
+		"depend": [
+			"nan"
+		],
+		"support": [],
+		"native": true
+	},
+	"path": {
+		"depend": [
+			"process"
+		],
+		"support": [],
+		"native": false
+	},
+	"nvm": {
+		"depend": [
+			"mkdirp"
+		],
+		"support": [],
+		"native": false
+	},
+	"gulp-postcss": {
+		"depend": [
+			"gulp-util",
+			"postcss",
+			"vinyl-sourcemaps-apply"
+		],
+		"support": [],
+		"native": false
+	},
+	"sharp": {
+		"depend": [
+			"bluebird",
+			"color",
+			"nan",
+			"semver",
+			"request",
+			"tar"
+		],
+		"support": [],
+		"native": true
+	},
+	"gulp-csslint": {
+		"depend": [
+			"csslint",
+			"gulp-util",
+			"rcloader",
+			"through2"
+		],
+		"support": [],
+		"native": false
+	},
+	"gulp-zip": {
+		"depend": [
+			"chalk",
+			"concat-stream",
+			"gulp-util",
+			"through2",
+			"yazl"
+		],
+		"support": [],
+		"native": false
+	},
+	"babel-loader": {
+		"depend": [
+			"loader-utils",
+			"mkdirp",
+			"object-assign"
+		],
+		"support": [],
+		"native": false
+	},
+	"critical": {
+		"depend": [
+			"bluebird",
+			"cheerio",
+			"clean-css",
+			"cli",
+			"debug",
+			"filter-css",
+			"finalhandler",
+			"fs-extra",
+			"get-port",
+			"get-stdin",
+			"gulp-util",
+			"imageinliner",
+			"indent-string",
+			"inline-critical",
+			"lodash",
+			"meow",
+			"mime-types",
+			"object-assign",
+			"oust",
+			"parseurl",
+			"penthouse",
+			"postcss",
+			"postcss-image-inliner",
+			"request",
+			"serve-static",
+			"slash",
+			"tempfile",
+			"through2",
+			"tmp"
+		],
+		"support": [],
+		"native": false
+	},
+	"pdfkit": {
+		"depend": [
+			"png-js"
+		],
+		"support": [],
+		"native": false
+	},
+	"gulp-jscs": {
+		"depend": [
+			"gulp-util",
+			"jscs",
+			"through2",
+			"tildify"
+		],
+		"support": [],
+		"native": false
+	},
+	"meteor": {
+		"depend": [
+			"connect",
+			"gzippo",
+			"optimist",
+			"coffee-script",
+			"less",
+			"stylus",
+			"nib",
+			"mime",
+			"semver",
+			"handlebars",
+			"mongodb",
+			"uglify-js",
+			"clean-css",
+			"useragent",
+			"request",
+			"simplesmtp",
+			"stream-buffers",
+			"keypress",
+			"sockjs",
+			"http-proxy",
+			"progress",
+			"mailcomposer",
+			"fibers"
+		],
+		"support": [],
+		"native": false
+	},
+	"vue": {
+		"depend": [
+			"envify"
+		],
+		"support": [],
+		"native": false
+	},
+	"gulp-inline-css": {
+		"depend": [
+			"gulp-util",
+			"inline-css",
+			"through2"
+		],
+		"support": [],
+		"native": false
+	},
+	"nan": {
+		"depend": [],
+		"support": [],
+		"native": true
+	},
+	"reactify": {
+		"depend": [
+			"through"
+		],
+		"support": [],
+		"native": false
+	},
+	"cross-env": {
+		"depend": [
+			"cross-spawn-async"
+		],
+		"support": [],
+		"native": false
+	},
+	"bearcat": {
+		"depend": [
+			"pomelo-logger",
+			"commander",
+			"chokidar"
+		],
+		"support": [],
+		"native": false
+	},
+	"loopback": {
+		"depend": [
+			"async",
+			"bcryptjs",
+			"body-parser",
+			"canonical-json",
+			"continuation-local-storage",
+			"cookie-parser",
+			"debug",
+			"depd",
+			"ejs",
+			"errorhandler",
+			"express",
+			"inflection",
+			"loopback-connector-remote",
+			"loopback-phase",
+			"nodemailer",
+			"nodemailer-stub-transport",
+			"serve-favicon",
+			"stable",
+			"strong-remoting",
+			"uid2",
+			"underscore"
+		],
+		"support": [],
+		"native": false
+	},
+	"gulp-usemin": {
+		"depend": [
+			"gulp-util",
+			"through2",
+			"glob",
+			"gulp-concat"
+		],
+		"support": [],
+		"native": false
+	},
+	"phonegap": {
+		"depend": [
+			"colors",
+			"connect-phonegap",
+			"cordova",
+			"minimist",
+			"opener",
+			"phonegap-build",
+			"pluralize",
+			"prompt",
+			"qrcode-terminal",
+			"semver",
+			"shelljs",
+			"update-notifier"
+		],
+		"support": [],
+		"native": false
+	},
+	"dist": {
+		"depend": [
+			"uglify-js"
+		],
+		"support": [],
+		"native": false
+	},
+	"psi": {
+		"depend": [
+			"chalk",
+			"download",
+			"googleapis",
+			"humanize-url",
+			"lodash",
+			"meow",
+			"object-assign",
+			"pify",
+			"pinkie-promise",
+			"prepend-http",
+			"pretty-bytes",
+			"repeating",
+			"sort-on",
+			"update-notifier"
+		],
+		"support": [],
+		"native": false
+	},
+	"gulp-bower": {
+		"depend": [
+			"bower",
+			"gulp-util",
+			"inquirer",
+			"through2",
+			"walk"
+		],
+		"support": [],
+		"native": false
+	},
+	"inherits": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"cookie-session": {
+		"depend": [
+			"cookies"
+		],
+		"support": [],
+		"native": false
+	},
+	"mustache": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"newman": {
+		"depend": [
+			"atob",
+			"aws4",
+			"backbone",
+			"btoa",
+			"cli-color",
+			"commander",
+			"crypto-js",
+			"dot",
+			"hawk",
+			"jquery",
+			"jsdom",
+			"jsface",
+			"json5",
+			"lodash",
+			"mkdirp",
+			"node-uuid",
+			"postman-collection-transformer",
+			"postman",
+			"request",
+			"sugar",
+			"tv4",
+			"underscore",
+			"unirest",
+			"xml2js"
+		],
+		"support": [],
+		"native": false
+	},
+	"semantic-release": {
+		"depend": [
+			"semantic-release",
+			"git-head",
+			"github",
+			"lodash",
+			"nerf-dart",
+			"nopt",
+			"npmconf",
+			"npmlog",
+			"parse-github-repo-url",
+			"require-relative",
+			"run-auto",
+			"run-series",
+			"semver"
+		],
+		"support": [],
+		"native": false
+	},
+	"monitor": {
+		"depend": [
+			"config",
+			"cron",
+			"backbone",
+			"underscore",
+			"backbone-callbacks",
+			"socket"
+		],
+		"support": [],
+		"native": false
+	},
+	"proxyquire": {
+		"depend": [
+			"fill-keys",
+			"module-not-found-error",
+			"resolve"
+		],
+		"support": [],
+		"native": false
+	},
+	"fibers": {
+		"depend": [],
+		"support": [],
+		"native": true
+	},
+	"serve": {
+		"depend": [
+			"connect",
+			"stylus",
+			"jade",
+			"less-middleware",
+			"commander"
+		],
+		"support": [],
+		"native": false
+	},
+	"node-static": {
+		"depend": [
+			"optimist"
+		],
+		"support": [],
+		"native": false
+	},
+	"generator-angular": {
+		"depend": [
+			"chalk",
+			"wiredep",
+			"yeoman-generator",
+			"yosay"
+		],
+		"support": [],
+		"native": false
+	},
+	"gulp-cached": {
+		"depend": [
+			"lodash"
+		],
+		"support": [],
+		"native": false
+	},
+	"liftoff": {
+		"depend": [
+			"extend",
+			"findup-sync",
+			"flagged-respawn",
+			"rechoir",
+			"resolve"
+		],
+		"support": [],
+		"native": false
+	},
+	"ember-cli": {
+		"depend": [
+			"amd-name-resolver",
+			"bower",
+			"bower-config",
+			"bower-endpoint-parser",
+			"ember-cli-broccoli",
+			"broccoli-babel-transpiler",
+			"broccoli-concat",
+			"broccoli-config-loader",
+			"broccoli-config-replace",
+			"broccoli-funnel",
+			"broccoli-funnel-reducer",
+			"broccoli-kitchen-sink-helpers",
+			"broccoli-merge-trees",
+			"broccoli-plugin",
+			"broccoli-sane-watcher",
+			"broccoli-source",
+			"broccoli-viz",
+			"chalk",
+			"clean-base-url",
+			"compression",
+			"configstore",
+			"core-object",
+			"cpr",
+			"debug",
+			"diff",
+			"ember-cli-get-component-path-option",
+			"ember-cli-is-package-missing",
+			"ember-cli-normalize-entity-name",
+			"ember-cli-path-utils",
+			"ember-cli-preprocess-registry",
+			"ember-cli-string-utils",
+			"ember-cli-test-info",
+			"ember-cli-valid-component-name",
+			"ember-router-generator",
+			"escape-string-regexp",
+			"exists-sync",
+			"exit",
+			"express",
+			"filesize",
+			"findup",
+			"findup-sync",
+			"fs-extra",
+			"fs-monitor-stack",
+			"fs-tree-diff",
+			"get-caller-file",
+			"git-repo-info",
+			"glob",
+			"http-proxy",
+			"inflection",
+			"inquirer",
+			"is-git-url",
+			"isbinaryfile",
+			"leek",
+			"lodash",
+			"markdown-it",
+			"markdown-it-terminal",
+			"merge-defaults",
+			"minimatch",
+			"mkdirp",
+			"morgan",
+			"node-modules-path",
+			"node-uuid",
+			"nopt",
+			"npm",
+			"ora",
+			"portfinder",
+			"promise-map-series",
+			"quick-temp",
+			"readline2",
+			"resolve",
+			"rimraf",
+			"rsvp",
+			"sane",
+			"semver",
+			"silent-error",
+			"symlink-or-copy",
+			"temp",
+			"testem",
+			"through",
+			"tiny-lr",
+			"tree-sync",
+			"walk-sync",
+			"yam"
+		],
+		"support": [],
+		"native": false
+	},
+	"apn": {
+		"depend": [
+			"debug"
+		],
+		"support": [],
+		"native": false
+	},
+	"express-generator": {
+		"depend": [
+			"commander"
+		],
+		"support": [],
+		"native": false
+	},
+	"gulp-concat-css": {
+		"depend": [
+			"gulp-util",
+			"lodash",
+			"parse-import",
+			"rework",
+			"rework-import",
+			"rework-plugin-url",
+			"through2"
+		],
+		"support": [],
+		"native": false
+	},
+	"gulp-mocha": {
+		"depend": [
+			"gulp-util",
+			"mocha",
+			"plur",
+			"resolve-from",
+			"temp",
+			"through"
+		],
+		"support": [],
+		"native": false
+	},
+	"crypto": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"email-templates": {
+		"depend": [
+			"bluebird",
+			"consolidate",
+			"debug",
+			"glob",
+			"juice",
+			"lodash"
+		],
+		"support": [],
+		"native": false
+	},
+	"gulp-react": {
+		"depend": [
+			"gulp-util",
+			"object-assign",
+			"react-tools",
+			"through2",
+			"vinyl-sourcemaps-apply"
+		],
+		"support": [],
+		"native": false
+	},
+	"trumpet": {
+		"depend": [
+			"html-select",
+			"html-tokenize",
+			"through2",
+			"duplexer2",
+			"inherits",
+			"readable-stream"
+		],
+		"support": [],
+		"native": false
+	},
+	"jasmine": {
+		"depend": [
+			"exit"
+		],
+		"support": [],
+		"native": false
+	},
+	"readable-stream": {
+		"depend": [
+			"buffer-shims",
+			"core-util-is",
+			"inherits",
+			"isarray",
+			"process-nextick-args",
+			"string",
+			"util-deprecate"
+		],
+		"support": [],
+		"native": false
+	},
+	"gulp-flatten": {
+		"depend": [
+			"gulp-util"
+		],
+		"support": [],
+		"native": false
+	},
+	"numeral": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"gulp-rev-replace": {
+		"depend": [
+			"gulp-util"
+		],
+		"support": [],
+		"native": false
+	},
+	"newrelic": {
+		"depend": [
+			"concat-stream",
+			"https-proxy-agent",
+			"json-stringify-safe",
+			"readable-stream",
+			"semver",
+			"yakaa"
+		],
+		"support": [],
+		"native": false
+	},
+	"how-to-npm": {
+		"depend": [
+			"adventure",
+			"concat-stream",
+			"mkdirp",
+			"rimraf",
+			"semver",
+			"which"
+		],
+		"support": [],
+		"native": false
+	},
+	"bootstrap-sass": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"nib": {
+		"depend": [
+			"stylus"
+		],
+		"support": [],
+		"native": false
+	},
+	"clone": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"diff": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"level": {
+		"depend": [
+			"level-packager"
+		],
+		"support": [],
+		"native": false
+	},
+	"brain": {
+		"depend": [
+			"underscore"
+		],
+		"support": [],
+		"native": false
+	},
+	"assert": {
+		"depend": [
+			"buffer-shims"
+		],
+		"support": [],
+		"native": false
+	},
+	"flightplan": {
+		"depend": [
+			"byline",
+			"chalk",
+			"fibers",
+			"interpret",
+			"liftoff",
+			"nopt",
+			"pretty-hrtime",
+			"prompt",
+			"semver",
+			"ssh2",
+			"util-extend",
+			"v8flags"
+		],
+		"support": [],
+		"native": false
+	},
+	"webpack-dev-server": {
+		"depend": [
+			"compression",
+			"connect-history-api-fallback",
+			"express",
+			"http-proxy",
+			"optimist",
+			"serve-index",
+			"sockjs",
+			"sockjs-client",
+			"stream-cache",
+			"strip-ansi",
+			"supports-color",
+			"webpack-dev-middleware"
+		],
+		"support": [],
+		"native": false
+	},
+	"lab": {
+		"depend": [
+			"bossy",
+			"diff",
+			"eslint",
+			"eslint-config-hapi",
+			"eslint-plugin-hapi",
+			"espree",
+			"handlebars",
+			"hoek",
+			"items",
+			"json-stable-stringify",
+			"json-stringify-safe",
+			"mkdirp",
+			"source-map-support"
+		],
+		"support": [],
+		"native": false
+	},
+	"node-fetch": {
+		"depend": [
+			"encoding"
+		],
+		"support": [],
+		"native": false
+	},
+	"svgo": {
+		"depend": [
+			"sax",
+			"coa",
+			"js-yaml",
+			"colors",
+			"whet",
+			"mkdirp",
+			"csso"
+		],
+		"support": [],
+		"native": false
+	},
+	"zombie": {
+		"depend": [
+			"babel-runtime",
+			"bluebird",
+			"debug",
+			"eventsource",
+			"iconv-lite",
+			"jsdom",
+			"lodash",
+			"mime",
+			"ms",
+			"request",
+			"tough-cookie",
+			"ws"
+		],
+		"support": [],
+		"native": false
+	},
+	"gulp-ignore": {
+		"depend": [
+			"through2"
+		],
+		"support": [],
+		"native": false
+	},
+	"gulp-csscomb": {
+		"depend": [
+			"csscomb"
+		],
+		"support": [],
+		"native": false
+	},
+	"beefy": {
+		"depend": [
+			"ansicolors",
+			"chokidar",
+			"concat-stream",
+			"find-global-packages",
+			"ignorepatterns",
+			"leftpad",
+			"mime",
+			"minimist",
+			"open",
+			"portfinder",
+			"pretty-bytes",
+			"readable-stream",
+			"resolve",
+			"response-stream",
+			"script-injector",
+			"through",
+			"which",
+			"xtend"
+		],
+		"support": [],
+		"native": false
+	},
+	"grunt-angular-templates": {
+		"depend": [
+			"html-minifier"
+		],
+		"support": [],
+		"native": false
+	},
+	"knox": {
+		"depend": [
+			"mime",
+			"xml2js",
+			"debug",
+			"stream-counter",
+			"once"
+		],
+		"support": [],
+		"native": false
+	},
+	"wrench": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"node-gcm": {
+		"depend": [
+			"debug"
+		],
+		"support": [],
+		"native": false
+	},
+	"moment-timezone": {
+		"depend": [
+			"moment"
+		],
+		"support": [],
+		"native": false
+	},
+	"generator-gulp-angular": {
+		"depend": [
+			"chalk",
+			"insight",
+			"lodash",
+			"slash",
+			"underscore",
+			"yeoman-generator",
+			"yosay"
+		],
+		"support": [],
+		"native": false
+	},
+	"eventemitter2": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"markdown-it": {
+		"depend": [
+			"argparse",
+			"entities",
+			"linkify-it",
+			"mdurl",
+			"uc"
+		],
+		"support": [],
+		"native": false
+	},
+	"memcached": {
+		"depend": [
+			"hashring"
+		],
+		"support": [],
+		"native": false
+	},
+	"localtunnel": {
+		"depend": [
+			"request",
+			"yargs",
+			"debug",
+			"openurl"
+		],
+		"support": [],
+		"native": false
+	},
+	"ava": {
+		"depend": [
+			"arr-diff",
+			"arr-flatten",
+			"array-union",
+			"array-uniq",
+			"arrify",
+			"ava-init",
+			"babel-core",
+			"babel-plugin-detective",
+			"babel-plugin-espower",
+			"babel-plugin-transform-runtime",
+			"babel-preset-es2015",
+			"babel-preset-stage-2",
+			"babel-runtime",
+			"bluebird",
+			"caching-transform",
+			"chalk",
+			"clean-yaml-object",
+			"cli-cursor",
+			"cli-spinners",
+			"cli-truncate",
+			"co-with-promise",
+			"common-path-prefix",
+			"convert-source-map",
+			"core-assert",
+			"debug",
+			"empower-core",
+			"figures",
+			"find-cache-dir",
+			"fn-name",
+			"globby",
+			"ignore-by-default",
+			"is-ci",
+			"is-generator-fn",
+			"is-obj",
+			"is-observable",
+			"is-promise",
+			"last-line-stream",
+			"lodash",
+			"loud-rejection",
+			"matcher",
+			"max-timeout",
+			"md5-hex",
+			"meow",
+			"ms",
+			"multimatch",
+			"object-assign",
+			"observable-to-promise",
+			"only-shallow",
+			"option-chain",
+			"pkg-conf",
+			"plur",
+			"power-assert-formatter",
+			"power-assert-renderers",
+			"pretty-ms",
+			"require-precompiled",
+			"resolve-cwd",
+			"set-immediate-shim",
+			"slash",
+			"source-map-support",
+			"stack-utils",
+			"strip-bom",
+			"time-require",
+			"unique-temp-dir",
+			"update-notifier",
+			"chokidar"
+		],
+		"support": [],
+		"native": false
+	},
+	"electron-prebuilt": {
+		"depend": [
+			"extract-zip"
+		],
+		"support": [],
+		"native": false
+	},
+	"routes": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"graphql": {
+		"depend": [
+			"babel-runtime"
+		],
+		"support": [],
+		"native": false
+	},
+	"yeoman-generator": {
+		"depend": [
+			"async",
+			"chalk",
+			"class-extend",
+			"cli-table",
+			"cross-spawn",
+			"dargs",
+			"dateformat",
+			"debug",
+			"detect-conflict",
+			"download",
+			"error",
+			"find-up",
+			"github-username",
+			"glob",
+			"gruntfile-editor",
+			"html-wiring",
+			"istextorbinary",
+			"lodash",
+			"mem-fs-editor",
+			"mkdirp",
+			"nopt",
+			"path-exists",
+			"path-is-absolute",
+			"pretty-bytes",
+			"read-chunk",
+			"read-pkg-up",
+			"rimraf",
+			"run-async",
+			"shelljs",
+			"text-table",
+			"through2",
+			"underscore",
+			"user-home",
+			"xdg-basedir",
+			"yeoman-assert",
+			"yeoman-environment",
+			"yeoman-test",
+			"yeoman-welcome"
+		],
+		"support": [],
+		"native": false
+	},
+	"tar": {
+		"depend": [
+			"block-stream"
+		],
+		"support": [],
+		"native": false
+	},
+	"grunt-contrib-compass": {
+		"depend": [
+			"async",
+			"bin-version-check",
+			"dargs",
+			"onetime",
+			"tmp",
+			"which"
+		],
+		"support": [],
+		"native": false
+	},
+	"terminal-menu": {
+		"depend": [
+			"charm",
+			"duplexer2",
+			"inherits",
+			"resumer",
+			"through2",
+			"visualwidth"
+		],
+		"support": [],
+		"native": false
+	},
+	"docpad": {
+		"depend": [
+			"ambi",
+			"backbone",
+			"bal-util",
+			"caterpillar",
+			"caterpillar-filter",
+			"caterpillar-human",
+			"commander",
+			"csextends",
+			"cson",
+			"eachr",
+			"encoding",
+			"envfile",
+			"event-emitter-grouped",
+			"express",
+			"extendr",
+			"extract-opts",
+			"getmac",
+			"hostenv",
+			"ignorefs",
+			"istextorbinary",
+			"jschardet",
+			"lazy-require",
+			"method-override",
+			"mime",
+			"progressbar",
+			"promptly",
+			"query-engine",
+			"rimraf",
+			"safefs",
+			"safeps",
+			"scandirectory",
+			"semver",
+			"superagent",
+			"taskgroup",
+			"typechecker",
+			"underscore",
+			"watchr",
+			"yamljs"
+		],
+		"support": [],
+		"native": false
+	},
+	"thunkify": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"merge-stream": {
+		"depend": [
+			"readable-stream"
+		],
+		"support": [],
+		"native": false
+	},
+	"archiver": {
+		"depend": [
+			"archiver-utils",
+			"async",
+			"buffer-crc32",
+			"glob",
+			"lodash",
+			"readable-stream",
+			"tar-stream",
+			"zip-stream"
+		],
+		"support": [],
+		"native": false
+	},
+	"grunt-sass": {
+		"depend": [
+			"each-async",
+			"node-sass",
+			"object-assign"
+		],
+		"support": [],
+		"native": false
+	},
+	"node-geocoder": {
+		"depend": [
+			"bluebird"
+		],
+		"support": [],
+		"native": false
+	},
+	"websocket": {
+		"depend": [
+			"debug",
+			"nan",
+			"typedarray-to-buffer",
+			"yaeti"
+		],
+		"support": [],
+		"native": true
+	},
+	"load-grunt-config": {
+		"depend": [
+			"cson",
+			"glob",
+			"jit-grunt",
+			"js-yaml",
+			"load-grunt-tasks",
+			"lodash"
+		],
+		"support": [],
+		"native": false
+	},
+	"nano": {
+		"depend": [
+			"request",
+			"follow",
+			"errs",
+			"underscore",
+			"debug"
+		],
+		"support": [],
+		"native": false
+	},
+	"eslint-plugin-react": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"browserify-shim": {
+		"depend": [
+			"exposify",
+			"mothership",
+			"rename-function-calls",
+			"resolve",
+			"through"
+		],
+		"support": [],
+		"native": false
+	},
+	"image-size": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"gulp-svgmin": {
+		"depend": [
+			"gulp-util"
+		],
+		"support": [],
+		"native": false
+	},
+	"gulp-strip-debug": {
+		"depend": [
+			"gulp-util",
+			"strip-debug",
+			"through2"
+		],
+		"support": [],
+		"native": false
+	},
+	"hexo": {
+		"depend": [
+			"abbrev",
+			"archy",
+			"bluebird",
+			"chalk",
+			"cheerio",
+			"hexo-cli",
+			"hexo-front-matter",
+			"hexo-fs",
+			"hexo-i18n",
+			"hexo-log",
+			"hexo-util",
+			"js-yaml",
+			"lodash",
+			"minimatch",
+			"moment",
+			"moment-timezone",
+			"nunjucks",
+			"pretty-hrtime",
+			"strip-indent",
+			"swig",
+			"swig-extras",
+			"text-table",
+			"tildify",
+			"titlecase",
+			"warehouse"
+		],
+		"support": [],
+		"native": false
+	},
+	"meow": {
+		"depend": [
+			"camelcase-keys",
+			"decamelize",
+			"loud-rejection",
+			"map-obj",
+			"minimist",
+			"normalize-package-data",
+			"object-assign",
+			"read-pkg-up",
+			"redent",
+			"trim-newlines"
+		],
+		"support": [],
+		"native": false
+	},
+	"monk": {
+		"depend": [
+			"mongoskin"
+		],
+		"support": [],
+		"native": false
+	},
+	"grunt-contrib-csslint": {
+		"depend": [
+			"chalk",
+			"csslint",
+			"lodash",
+			"strip-json-comments"
+		],
+		"support": [],
+		"native": false
+	},
+	"opn": {
+		"depend": [
+			"object-assign"
+		],
+		"support": [],
+		"native": false
+	},
+	"pre-commit": {
+		"depend": [
+			"cross-spawn"
+		],
+		"support": [],
+		"native": false
+	},
+	"nodewebkit": {
+		"depend": [
+			"rimraf",
+			"download",
+			"multimeter",
+			"yargs",
+			"semver"
+		],
+		"support": [],
+		"native": false
+	},
+	"opencv": {
+		"depend": [
+			"buffers",
+			".",
+			"node-pre-gyp"
+		],
+		"support": [],
+		"native": false
+	},
+	"chance": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"rethinkdb": {
+		"depend": [
+			"bluebird"
+		],
+		"support": [],
+		"native": false
+	},
+	"yeoman": {
+		"depend": [
+			"grunt",
+			"yeoman-generators",
+			"bower",
+			"open",
+			"rimraf",
+			"mkdirp",
+			"requirejs",
+			"clean-css",
+			"connect",
+			"request",
+			"html-minifier",
+			"which",
+			"cheerio",
+			"fstream",
+			"fstream-ignore",
+			"tar",
+			"coffee-script",
+			"grunt-jasmine-task",
+			"faye-websocket",
+			"shelljs",
+			"prompt",
+			"colors",
+			"grunt-mocha",
+			"es6-collections",
+			"grunt-contrib-coffee"
+		],
+		"support": [],
+		"native": false
+	},
+	"grunt-notify": {
+		"depend": [
+			"semver"
+		],
+		"support": [],
+		"native": false
+	},
+	"gulp-clean-css": {
+		"depend": [
+			"clean-css",
+			"gulp-util",
+			"object-assign",
+			"readable-stream",
+			"vinyl-bufferstream",
+			"vinyl-sourcemaps-apply"
+		],
+		"support": [],
+		"native": false
+	},
+	"imagemagick": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"gulp-copy": {
+		"depend": [
+			"gulp-util"
+		],
+		"support": [],
+		"native": false
+	},
+	"xhr": {
+		"depend": [
+			"global",
+			"is-function",
+			"once",
+			"parse-headers",
+			"xtend"
+		],
+		"support": [],
+		"native": false
+	},
+	"events": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"log": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"lazypipe": {
+		"depend": [
+			"stream-combiner"
+		],
+		"support": [],
+		"native": false
+	},
+	"adm-zip": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"prettyjson": {
+		"depend": [
+			"colors"
+		],
+		"support": [],
+		"native": false
+	},
+	"cucumber": {
+		"depend": [
+			"callsite",
+			"camel-case",
+			"cli-table",
+			"co",
+			"colors",
+			"commander",
+			"cucumber-html",
+			"duration",
+			"gherkin",
+			"glob",
+			"is-generator",
+			"lodash",
+			"stack-chain"
+		],
+		"support": [],
+		"native": false
+	},
+	"mime-types": {
+		"depend": [
+			"mime-db"
+		],
+		"support": [],
+		"native": false
+	},
+	"vasync": {
+		"depend": [
+			"verror"
+		],
+		"support": [],
+		"native": false
+	},
+	"qr-image": {
+		"depend": [
+			"pako"
+		],
+		"support": [],
+		"native": false
+	},
+	"grunt-jsdoc": {
+		"depend": [
+			"cross-spawn-async"
+		],
+		"support": [],
+		"native": false
+	},
+	"three": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"gulp-gh-pages": {
+		"depend": [
+			"gift",
+			"gulp-util",
+			"readable-stream",
+			"rimraf",
+			"vinyl-fs",
+			"wrap-promise"
+		],
+		"support": [],
+		"native": false
+	},
+	"strongloop": {
+		"depend": [
+			"async",
+			"debug",
+			"generator-loopback",
+			"loopback-sdk-angular-cli",
+			"node-inspector",
+			"nodefly-register",
+			"nopt",
+			"optimist",
+			"read",
+			"strong-agent",
+			"strong-arc",
+			"strong-build",
+			"strong-deploy",
+			"strong-mesh-models",
+			"strong-pm",
+			"strong-registry",
+			"strong-start",
+			"strong-supervisor",
+			"which",
+			"JSONStream",
+			"bufferutil",
+			"core-util-is",
+			"d3",
+			"heapdump",
+			"inherits",
+			"less",
+			"lodash",
+			"loopback",
+			"loopback-datasource-juggler",
+			"mime-db",
+			"modern-syslog",
+			"moment",
+			"readable-stream",
+			"spawn-sync",
+			"sqlite3",
+			"strong-debugger",
+			"strong-remoting",
+			"strong-swagger-ui",
+			"swagger-ui",
+			"utf-8-validate",
+			"wrappy",
+			"ws"
+		],
+		"support": [],
+		"native": false
+	},
+	"ngrok": {
+		"depend": [
+			"async",
+			"decompress-zip",
+			"lock",
+			"node-uuid",
+			"request",
+			"tar",
+			"xtend"
+		],
+		"support": [],
+		"native": false
+	},
+	"orm": {
+		"depend": [
+			"enforce",
+			"sql-query",
+			"sql-ddl-sync",
+			"hat",
+			"lodash",
+			"path-is-absolute"
+		],
+		"support": [],
+		"native": false
+	},
+	"gulp-include": {
+		"depend": [
+			"event-stream",
+			"glob",
+			"gulp-util",
+			"source-map",
+			"vinyl-sourcemaps-apply"
+		],
+		"support": [],
+		"native": false
+	},
+	"node-dev": {
+		"depend": [
+			"dateformat",
+			"dynamic-dedupe",
+			"filewatcher",
+			"minimist",
+			"node-notifier",
+			"resolve"
+		],
+		"support": [],
+		"native": false
+	},
+	"babel-eslint": {
+		"depend": [
+			"babel-traverse",
+			"babel-types",
+			"babylon",
+			"lodash"
+		],
+		"support": [],
+		"native": false
+	},
+	"primus": {
+		"depend": [
+			"access-control",
+			"asyncemit",
+			"create-server",
+			"diagnostics",
+			"eventemitter3",
+			"forwarded-for",
+			"fusing",
+			"load",
+			"setheader",
+			"ultron",
+			"yeast"
+		],
+		"support": [],
+		"native": false
+	},
+	"needle": {
+		"depend": [
+			"debug"
+		],
+		"support": [],
+		"native": false
+	},
+	"pouchdb": {
+		"depend": [
+			"argsarray",
+			"debug",
+			"double-ended-queue",
+			"es3ify",
+			"fruitdown",
+			"inherits",
+			"js-extend",
+			"level-write-stream",
+			"levelup",
+			"lie",
+			"localstorage-down",
+			"memdown",
+			"pouchdb-collate",
+			"pouchdb-collections",
+			"request",
+			"scope-eval",
+			"spark-md5",
+			"sublevel-pouchdb",
+			"through2",
+			"vuvuzela",
+			"leveldown",
+			"websql"
+		],
+		"support": [],
+		"native": false
+	},
+	"grunt-spritesmith": {
+		"depend": [
+			"async",
+			"spritesheet-templates",
+			"spritesmith",
+			"underscore",
+			"url2"
+		],
+		"support": [],
+		"native": false
+	},
+	"gulp-ftp": {
+		"depend": [
+			"chalk",
+			"gulp-util",
+			"jsftp",
+			"jsftp-mkdirp",
+			"object-assign",
+			"parents",
+			"plur",
+			"through2"
+		],
+		"support": [],
+		"native": false
+	},
+	"tedious": {
+		"depend": [
+			"babel-runtime",
+			"big-number",
+			"bl",
+			"iconv-lite",
+			"readable-stream",
+			"semver",
+			"sprintf"
+		],
+		"support": [],
+		"native": false
+	},
+	"weinre": {
+		"depend": [
+			"express"
+		],
+		"support": [],
+		"native": false
+	},
+	"node-windows": {
+		"depend": [
+			"optimist"
+		],
+		"support": [],
+		"native": false
+	},
+	"once": {
+		"depend": [
+			"wrappy"
+		],
+		"support": [],
+		"native": false
+	},
+	"yamljs": {
+		"depend": [
+			"argparse"
+		],
+		"support": [],
+		"native": false
+	},
+	"verror": {
+		"depend": [
+			"core-util-is"
+		],
+		"support": [],
+		"native": false
+	},
+	"karma-jasmine": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"nightmare": {
+		"depend": [
+			"debug",
+			"deep-defaults",
+			"defaults",
+			"electron-prebuilt",
+			"enqueue",
+			"function-source",
+			"jsesc",
+			"minstache",
+			"mkdirp",
+			"object-assign",
+			"once",
+			"rimraf",
+			"sliced",
+			"split2"
+		],
+		"support": [],
+		"native": false
+	},
+	"fast-csv": {
+		"depend": [
+			"is-extended",
+			"object-extended",
+			"extended",
+			"string-extended"
+		],
+		"support": [],
+		"native": false
+	},
+	"gulp-cache": {
+		"depend": [
+			"bluebird",
+			"cache-swap",
+			"gulp-util",
+			"object-assign",
+			"object",
+			"readable-stream",
+			"try-json-parse",
+			"vinyl"
+		],
+		"support": [],
+		"native": false
+	},
+	"gulp-bower-files": {
+		"depend": [
+			"gulp-util"
+		],
+		"support": [],
+		"native": false
+	},
+	"seneca": {
+		"depend": [
+			"archy",
+			"eraro",
+			"gate-executor",
+			"gex",
+			"jsonic",
+			"lodash",
+			"lru-cache",
+			"minimist",
+			"nid",
+			"norma",
+			"parambulator",
+			"patrun",
+			"rolling-stats",
+			"semver",
+			"seneca-basic",
+			"seneca-cluster",
+			"seneca-mem-store",
+			"seneca-repl",
+			"seneca-transport",
+			"seneca-web",
+			"use-plugin",
+			"zig"
+		],
+		"support": [],
+		"native": false
+	},
+	"pi-gpio": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"agenda-ui": {
+		"depend": [
+			"ejs",
+			"express",
+			"rsvp",
+			"speakingurl"
+		],
+		"support": [],
+		"native": false
+	},
+	"phantom": {
+		"depend": [
+			"linerstream",
+			"phantomjs-prebuilt",
+			"winston"
+		],
+		"support": [],
+		"native": false
+	},
+	"gulp-cssmin": {
+		"depend": [
+			"gulp-util",
+			"graceful-fs",
+			"filesize",
+			"temp-write",
+			"map-stream",
+			"clean-css",
+			"gulp-rename"
+		],
+		"support": [],
+		"native": false
+	},
+	"grunt-shell": {
+		"depend": [
+			"chalk",
+			"npm-run-path",
+			"object-assign"
+		],
+		"support": [],
+		"native": false
+	},
+	"gaze": {
+		"depend": [
+			"globule"
+		],
+		"support": [],
+		"native": false
+	},
+	"acl": {
+		"depend": [
+			"async",
+			"bluebird",
+			"lodash",
+			"mongodb",
+			"redis"
+		],
+		"support": [],
+		"native": false
+	},
+	"grunt-contrib-compress": {
+		"depend": [
+			"archiver",
+			"chalk",
+			"lodash",
+			"pretty-bytes",
+			"stream-buffers"
+		],
+		"support": [],
+		"native": false
+	},
+	"parallelshell": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"vhost": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"grunt-uncss": {
+		"depend": [
+			"async",
+			"chalk",
+			"maxmin",
+			"uncss"
+		],
+		"support": [],
+		"native": false
+	},
+	"chai-as-promised": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"highland": {
+		"depend": [
+			"util-deprecate"
+		],
+		"support": [],
+		"native": false
+	},
+	"history": {
+		"depend": [
+			"deep-equal",
+			"invariant",
+			"query-string",
+			"warning"
+		],
+		"support": [],
+		"native": false
+	},
+	"gulp-handlebars": {
+		"depend": [
+			"through2",
+			"handlebars",
+			"gulp-util"
+		],
+		"support": [],
+		"native": false
+	},
+	"monitor-dashboard": {
+		"depend": [
+			"config",
+			"connect",
+			"backbone-callbacks",
+			"monitor",
+			"core-monitor"
+		],
+		"support": [],
+		"native": false
+	},
+	"concurrently": {
+		"depend": [
+			"bluebird",
+			"chalk",
+			"commander",
+			"cross-spawn",
+			"lodash",
+			"moment",
+			"rx"
+		],
+		"support": [],
+		"native": false
+	},
+	"orchestrator": {
+		"depend": [
+			"end-of-stream",
+			"sequencify",
+			"stream-consume"
+		],
+		"support": [],
+		"native": false
+	},
+	"grunt-usemin": {
+		"depend": [
+			"chalk",
+			"debug",
+			"lodash",
+			"path-exists"
+		],
+		"support": [],
+		"native": false
+	},
+	"jimp": {
+		"depend": [
+			"bignumber",
+			"bmp-js",
+			"es6-promise",
+			"exif-parser",
+			"file-type",
+			"jpeg-js",
+			"load-bmfont",
+			"mime",
+			"pixelmatch",
+			"pngjs",
+			"read-chunk",
+			"request",
+			"stream-to-buffer",
+			"tinycolor2",
+			"url-regex"
+		],
+		"support": [],
+		"native": false
+	},
+	"after": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"ioredis": {
+		"depend": [
+			"bluebird",
+			"debug",
+			"double-ended-queue",
+			"flexbuffer",
+			"lodash"
+		],
+		"support": [],
+		"native": false
+	},
+	"virtual-dom": {
+		"depend": [
+			"browser-split",
+			"error",
+			"ev-store",
+			"global",
+			"is-object",
+			"next-tick",
+			"x-is-array",
+			"x-is-string"
+		],
+		"support": [],
+		"native": false
+	},
+	"errorhandler": {
+		"depend": [
+			"accepts"
+		],
+		"support": [],
+		"native": false
+	},
+	"traverse": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"gulp-image-resize": {
+		"depend": [
+			"async",
+			"gulp-gm",
+			"through2",
+			"lodash"
+		],
+		"support": [],
+		"native": false
+	},
+	"lowdb": {
+		"depend": [
+			"graceful-fs",
+			"is-promise",
+			"json-parse-helpfulerror",
+			"lodash",
+			"steno"
+		],
+		"support": [],
+		"native": false
+	},
+	"gulp-data": {
+		"depend": [
+			"gulp-util",
+			"through2",
+			"util-extend"
+		],
+		"support": [],
+		"native": false
+	},
+	"css-sprite": {
+		"depend": [
+			"async",
+			"color",
+			"cssesc",
+			"graceful-fs",
+			"imageinfo",
+			"json2css",
+			"layout",
+			"lodash",
+			"lwip",
+			"mkdirp",
+			"mustache",
+			"nomnom",
+			"through2",
+			"vinyl",
+			"vinyl-fs"
+		],
+		"support": [],
+		"native": false
+	},
+	"markdown-pdf": {
+		"depend": [
+			"commander",
+			"duplexer",
+			"extend",
+			"highlight",
+			"phantomjs-prebuilt",
+			"remarkable",
+			"stream-from-to",
+			"through2",
+			"tmp"
+		],
+		"support": [],
+		"native": false
+	},
+	"node-rest-client": {
+		"depend": [
+			"xml2js"
+		],
+		"support": [],
+		"native": false
+	},
+	"jspm": {
+		"depend": [
+			"chalk",
+			"core-js",
+			"glob",
+			"graceful-fs",
+			"jspm-github",
+			"jspm-npm",
+			"jspm-registry",
+			"liftoff",
+			"minimatch",
+			"mkdirp",
+			"ncp",
+			"proper-lockfile",
+			"request",
+			"rimraf",
+			"rsvp",
+			"semver",
+			"systemjs",
+			"systemjs-builder",
+			"traceur",
+			"uglify-js"
+		],
+		"support": [],
+		"native": false
+	},
+	"grunt-pagespeed": {
+		"depend": [
+			"psi"
+		],
+		"support": [],
+		"native": false
+	},
+	"keystone": {
+		"depend": [
+			"async",
+			"asyncdi",
+			"azure",
+			"babel-core",
+			"babel-preset-es2015",
+			"babel-preset-react",
+			"babelify",
+			"babyparse",
+			"bcrypt-nodejs",
+			"blacklist",
+			"bluebird",
+			"body-parser",
+			"browserify-shim",
+			"bytes",
+			"caller-id",
+			"chalk",
+			"classnames",
+			"cloudinary",
+			"codemirror",
+			"compression",
+			"connect-flash",
+			"cookie-parser",
+			"debug",
+			"embedly",
+			"errorhandler",
+			"express",
+			"express-session",
+			"fs-extra",
+			"grappling-hook",
+			"jade",
+			"jquery",
+			"juice",
+			"keystone-utils",
+			"knox",
+			"less-middleware",
+			"list-to-array",
+			"mailgun-js",
+			"mandrill-api",
+			"marked",
+			"method-override",
+			"moment",
+			"mongoose",
+			"morgan",
+			"mpromise",
+			"multer",
+			"numeral",
+			"object-assign",
+			"pikaday",
+			"queryfilter",
+			"range",
+			"react",
+			"react-alt-text",
+			"react-select",
+			"scmp",
+			"semver",
+			"serve-favicon",
+			"store-prototype",
+			"superagent",
+			"underscore",
+			"vkey",
+			"watchify"
+		],
+		"support": [],
+		"native": false
+	},
+	"gulp-combine-media-queries": {
+		"depend": [
+			"css-parse",
+			"lodash",
+			"through2",
+			"gulp-util"
+		],
+		"support": [],
+		"native": false
+	},
+	"stripe": {
+		"depend": [
+			"bluebird"
+		],
+		"support": [],
+		"native": false
+	},
+	"casperjs": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"angular-material": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"pm2-web": {
+		"depend": [
+			"express",
+			"jade",
+			"winston",
+			"underscore",
+			"wantsit",
+			"pm2-interface",
+			"ws",
+			"wildemitter",
+			"cjson",
+			"minimist",
+			"semver",
+			"pwuid",
+			"zepto-browserify",
+			"moment",
+			"mustache",
+			"ansi-html",
+			"html-entities",
+			"method-override",
+			"mdns2"
+		],
+		"support": [],
+		"native": false
+	},
+	"path-to-regexp": {
+		"depend": [
+			"isarray"
+		],
+		"support": [],
+		"native": false
+	},
+	"gulp-sftp": {
+		"depend": [
+			"async",
+			"gulp-util",
+			"object-assign",
+			"parents",
+			"ssh2",
+			"through2"
+		],
+		"support": [],
+		"native": false
+	},
+	"heapdump": {
+		"depend": [],
+		"support": [],
+		"native": true
+	},
+	"mathjs": {
+		"depend": [
+			"decimal",
+			"fraction",
+			"complex",
+			"tiny-emitter",
+			"typed-function"
+		],
+		"support": [],
+		"native": false
+	},
+	"st": {
+		"depend": [
+			"async-cache",
+			"bl",
+			"fd",
+			"mime",
+			"negotiator",
+			"graceful-fs"
+		],
+		"support": [],
+		"native": false
+	},
+	"gulp-express": {
+		"depend": [
+			"chalk",
+			"debug",
+			"deepmerge",
+			"event-stream",
+			"tiny-lr"
+		],
+		"support": [],
+		"native": false
+	},
+	"expect": {
+		"depend": [
+			"define-properties",
+			"has",
+			"is-equal",
+			"is-regex",
+			"object-inspect",
+			"object-keys",
+			"tmatch"
+		],
+		"support": [],
+		"native": false
+	},
+	"gulp-order": {
+		"depend": [
+			"through"
+		],
+		"support": [],
+		"native": false
+	},
+	"gulp-svgstore": {
+		"depend": [
+			"cheerio"
+		],
+		"support": [],
+		"native": false
+	},
+	"gulp-prompt": {
+		"depend": [
+			"inquirer"
+		],
+		"support": [],
+		"native": false
+	},
+	"domify": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"hoek": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"ip": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"strftime": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"tmp": {
+		"depend": [
+			"os-tmpdir"
+		],
+		"support": [],
+		"native": false
+	},
+	"useragent": {
+		"depend": [
+			"lru-cache"
+		],
+		"support": [],
+		"native": false
+	},
+	"gulp-awspublish": {
+		"depend": [
+			"aws-sdk",
+			"clone",
+			"gulp-util",
+			"mime",
+			"pad-component",
+			"pascal-case",
+			"through2",
+			"vinyl",
+			"xml-json"
+		],
+		"support": [],
+		"native": false
+	},
+	"he": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"eventproxy": {
+		"depend": [
+			"debug"
+		],
+		"support": [],
+		"native": false
+	},
+	"util": {
+		"depend": [
+			"inherits"
+		],
+		"support": [],
+		"native": false
+	},
+	"q-io": {
+		"depend": [
+			"q",
+			"qs",
+			"url2",
+			"mime",
+			"mimeparse",
+			"collections"
+		],
+		"support": [],
+		"native": false
+	},
+	"xlsjs": {
+		"depend": [
+			"ssf",
+			"codepage",
+			"cfb",
+			"commander"
+		],
+		"support": [],
+		"native": false
+	},
+	"vinyl": {
+		"depend": [
+			"clone",
+			"clone-stats",
+			"replace-ext"
+		],
+		"support": [],
+		"native": false
+	},
+	"grunt-contrib-requirejs": {
+		"depend": [
+			"requirejs"
+		],
+		"support": [],
+		"native": false
+	},
+	"spdy": {
+		"depend": [
+			"debug",
+			"handle-thing",
+			"http-deceiver",
+			"select-hose",
+			"spdy-transport"
+		],
+		"support": [],
+		"native": false
+	},
+	"gulp-svg-sprite": {
+		"depend": [
+			"svg-sprite",
+			"through2",
+			"gulp-util",
+			"vinyl"
+		],
+		"support": [],
+		"native": false
+	},
+	"pm2-gui": {
+		"depend": [
+			"async",
+			"lodash",
+			"commander",
+			"chalk",
+			"express",
+			"express-session",
+			"jade",
+			"windows-cpu",
+			"socket",
+			"pm2-axon",
+			"pm2-axon-rpc",
+			"ansi-html",
+			"pidusage",
+			"blessed",
+			"inquirer"
+		],
+		"support": [],
+		"native": false
+	},
+	"querystring": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"grunt-processhtml": {
+		"depend": [
+			"async",
+			"htmlprocessor",
+			"lodash"
+		],
+		"support": [],
+		"native": false
+	},
+	"gitbook": {
+		"depend": [
+			"q",
+			"lodash",
+			"graceful-fs",
+			"resolve",
+			"fs-extra",
+			"fstream-ignore",
+			"gitbook-parsers",
+			"gitbook-plugin-highlight",
+			"gitbook-plugin-sharing",
+			"gitbook-plugin-search",
+			"gitbook-plugin-fontsettings",
+			"nunjucks",
+			"nunjucks-autoescape",
+			"nunjucks-filter",
+			"i18n",
+			"semver",
+			"npmi",
+			"cheerio",
+			"gitbook-plugin-livereload",
+			"chokidar",
+			"send",
+			"tiny-lr",
+			"tmp",
+			"crc",
+			"bash-color",
+			"urijs",
+			"request",
+			"npm",
+			"dom-serializer",
+			"spawn-cmd",
+			"escape-string-regexp",
+			"juice",
+			"jsonschema",
+			"json-schema-defaults",
+			"merge-defaults",
+			"github-slugid"
+		],
+		"support": [],
+		"native": false
+	},
+	"gulp-sequence": {
+		"depend": [
+			"gulp-util"
+		],
+		"support": [],
+		"native": false
+	},
+	"vinyl-fs": {
+		"depend": [
+			"duplexify",
+			"glob-stream",
+			"graceful-fs",
+			"gulp-sourcemaps",
+			"is-valid-glob",
+			"lazystream",
+			"lodash",
+			"merge-stream",
+			"mkdirp",
+			"object-assign",
+			"readable-stream",
+			"strip-bom",
+			"strip-bom-stream",
+			"through2",
+			"through2-filter",
+			"vali-date",
+			"vinyl"
+		],
+		"support": [],
+		"native": false
+	},
+	"i18next": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"node-pushserver": {
+		"depend": [
+			"mongoose",
+			"node-gcm",
+			"lodash",
+			"apn",
+			"express",
+			"commander"
+		],
+		"support": [],
+		"native": false
+	},
+	"ghost": {
+		"depend": [
+			"bcryptjs",
+			"bluebird",
+			"body-parser",
+			"bookshelf",
+			"chalk",
+			"cheerio",
+			"compression",
+			"connect-slashes",
+			"cookie-session",
+			"cors",
+			"downsize",
+			"express",
+			"express-hbs",
+			"extract-zip",
+			"fs-extra",
+			"ghost-gql",
+			"glob",
+			"html-to-text",
+			"intl",
+			"intl-messageformat",
+			"jsonpath",
+			"knex",
+			"lodash",
+			"moment",
+			"morgan",
+			"multer",
+			"netjet",
+			"node-uuid",
+			"nodemailer",
+			"oauth2orize",
+			"passport",
+			"passport-http-bearer",
+			"passport-oauth2-client-password",
+			"path-match",
+			"rss",
+			"semver",
+			"showdown-ghost",
+			"sqlite3",
+			"unidecode",
+			"validator",
+			"xml",
+			"mysql",
+			"pg"
+		],
+		"support": [],
+		"native": false
+	},
+	"wordpress-rest-api": {
+		"depend": [
+			"bluebird",
+			"li",
+			"lodash",
+			"node",
+			"qs",
+			"route-parser",
+			"superagent"
+		],
+		"support": [],
+		"native": false
+	},
+	"ndarray": {
+		"depend": [
+			"iota-array"
+		],
+		"support": [],
+		"native": false
+	},
+	"grunt-bower-task": {
+		"depend": [
+			"bower",
+			"lodash",
+			"rimraf",
+			"wrench",
+			"colors",
+			"async"
+		],
+		"support": [],
+		"native": false
+	},
+	"blessed-contrib": {
+		"depend": [
+			"ansi-term",
+			"x256",
+			"chalk",
+			"drawille-canvas-blessed-contrib",
+			"lodash",
+			"map-canvas",
+			"marked",
+			"marked-terminal",
+			"memory-streams",
+			"memorystream",
+			"picture-tube",
+			"request",
+			"sparkline",
+			"strip-ansi",
+			"term-canvas"
+		],
+		"support": [],
+		"native": false
+	},
+	"gulp-rev-all": {
+		"depend": [
+			"chalk",
+			"gulp-util",
+			"merge",
+			"through2"
+		],
+		"support": [],
+		"native": false
+	},
+	"node-webkit-builder": {
+		"depend": [
+			"archiver",
+			"bluebird",
+			"decompress-zip",
+			"inherits",
+			"lodash",
+			"optimist",
+			"rcedit",
+			"plist",
+			"progress",
+			"request",
+			"rimraf",
+			"semver",
+			"simple-glob",
+			"tar-fs",
+			"temp",
+			"update-notifier",
+			"winresourcer",
+			"platform-overrides",
+			"graceful-ncp",
+			"graceful-fs-extra"
+		],
+		"support": [],
+		"native": false
+	},
+	"learnyounode": {
+		"depend": [
+			"after",
+			"bl",
+			"boganipsum",
+			"colors-tmpl",
+			"combined-stream",
+			"concat-stream",
+			"duplexer",
+			"hyperquest",
+			"rimraf",
+			"through",
+			"through2",
+			"through2-map",
+			"workshopper-adventure",
+			"workshopper-exercise",
+			"workshopper-wrappedexec"
+		],
+		"support": [],
+		"native": false
+	},
+	"grunt-nodemon": {
+		"depend": [
+			"nodemon"
+		],
+		"support": [],
+		"native": false
+	},
+	"nomnom": {
+		"depend": [
+			"underscore"
+		],
+		"support": [],
+		"native": false
+	},
+	"gulp-rimraf": {
+		"depend": [
+			"gulp-util"
+		],
+		"support": [],
+		"native": false
+	},
+	"envify": {
+		"depend": [
+			"through"
+		],
+		"support": [],
+		"native": false
+	},
+	"broccoli": {
+		"depend": [
+			"broccoli-kitchen-sink-helpers",
+			"broccoli-slow-trees",
+			"commander",
+			"connect",
+			"copy-dereference",
+			"findup-sync",
+			"handlebars",
+			"mime",
+			"promise-map-series",
+			"quick-temp",
+			"rimraf",
+			"rsvp"
+		],
+		"support": [],
+		"native": false
+	},
+	"grunt-bower-install": {
+		"depend": [
+			"wiredep"
+		],
+		"support": [],
+		"native": false
+	},
+	"jasmine-node": {
+		"depend": [
+			"coffee-script",
+			"jasmine-reporters",
+			"jasmine-growl-reporter",
+			"requirejs",
+			"walkdir",
+			"underscore",
+			"gaze",
+			"mkdirp"
+		],
+		"support": [],
+		"native": false
+	},
+	"universal-analytics": {
+		"depend": [
+			"request",
+			"underscore",
+			"node-uuid",
+			"async"
+		],
+		"support": [],
+		"native": false
+	},
+	"keymirror": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"geoip-lite": {
+		"depend": [
+			"async",
+			"colors",
+			"glob",
+			"iconv-lite",
+			"lazy",
+			"rimraf",
+			"unzip"
+		],
+		"support": [],
+		"native": false
+	},
+	"sax": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"director": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"xml": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"brfs": {
+		"depend": [
+			"quote-stream",
+			"resolve",
+			"static-module",
+			"through2"
+		],
+		"support": [],
+		"native": false
+	},
+	"onoff": {
+		"depend": [
+			"epoll"
+		],
+		"support": [],
+		"native": false
+	},
+	"jest-cli": {
+		"depend": [
+			"chalk",
+			"cover",
+			"diff",
+			"graceful-fs",
+			"istanbul",
+			"jest-environment-jsdom",
+			"jest-environment-node",
+			"jest-haste-map",
+			"jest-jasmine1",
+			"jest-jasmine2",
+			"jest-mock",
+			"jest-util",
+			"json-stable-stringify",
+			"lodash",
+			"mkdirp",
+			"optimist",
+			"resolve",
+			"sane",
+			"which",
+			"worker-farm"
+		],
+		"support": [],
+		"native": false
+	},
+	"supertest-as-promised": {
+		"depend": [
+			"bluebird"
+		],
+		"support": [],
+		"native": false
+	},
+	"md5": {
+		"depend": [
+			"charenc"
+		],
+		"support": [],
+		"native": false
+	},
+	"phantomjs-prebuilt": {
+		"depend": [
+			"extract-zip",
+			"fs-extra",
+			"hasha",
+			"kew",
+			"progress",
+			"request",
+			"request-progress",
+			"which"
+		],
+		"support": [],
+		"native": false
+	},
+	"pretty-bytes": {
+		"depend": [
+			"number-is-nan"
+		],
+		"support": [],
+		"native": false
+	},
+	"passport-facebook": {
+		"depend": [
+			"passport-oauth2"
+		],
+		"support": [],
+		"native": false
+	},
+	"restler": {
+		"depend": [
+			"qs",
+			"xml2js",
+			"yaml",
+			"iconv-lite"
+		],
+		"support": [],
+		"native": false
+	},
+	"babel-preset-es2015": {
+		"depend": [
+			"babel-plugin-transform-es2015-template-literals",
+			"babel-plugin-transform-es2015-literals",
+			"babel-plugin-transform-es2015-function-name",
+			"babel-plugin-transform-es2015-arrow-functions",
+			"babel-plugin-transform-es2015-block-scoped-functions",
+			"babel-plugin-transform-es2015-classes",
+			"babel-plugin-transform-es2015-object-super",
+			"babel-plugin-transform-es2015-shorthand-properties",
+			"babel-plugin-transform-es2015-computed-properties",
+			"babel-plugin-transform-es2015-duplicate-keys",
+			"babel-plugin-transform-es2015-for-of",
+			"babel-plugin-transform-es2015-sticky-regex",
+			"babel-plugin-transform-es2015-unicode-regex",
+			"babel-plugin-check-es2015-constants",
+			"babel-plugin-transform-es2015-spread",
+			"babel-plugin-transform-es2015-parameters",
+			"babel-plugin-transform-es2015-destructuring",
+			"babel-plugin-transform-es2015-block-scoping",
+			"babel-plugin-transform-es2015-typeof-symbol",
+			"babel-plugin-transform-es2015-modules-commonjs",
+			"babel-plugin-transform-regenerator"
+		],
+		"support": [],
+		"native": false
+	},
+	"normalize.css": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"vinyl-buffer": {
+		"depend": [
+			"bl"
+		],
+		"support": [],
+		"native": false
+	},
+	"lite-server": {
+		"depend": [
+			"browser-sync",
+			"connect-history-api-fallback",
+			"connect-logger",
+			"lodash",
+			"minimist"
+		],
+		"support": [],
+		"native": false
+	},
+	"grunt-text-replace": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"pageres": {
+		"depend": [
+			"array-differ",
+			"array-uniq",
+			"babel-runtime",
+			"easydate",
+			"filenamify-url",
+			"fs-write-stream-atomic",
+			"get-res",
+			"lodash",
+			"log-symbols",
+			"mem",
+			"mkdirp",
+			"object-assign",
+			"pify",
+			"plur",
+			"protocolify",
+			"rimraf",
+			"screenshot-stream",
+			"viewport-list"
+		],
+		"support": [],
+		"native": false
+	},
+	"mongoskin": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"imap": {
+		"depend": [
+			"utf7"
+		],
+		"support": [],
+		"native": false
+	},
+	"reflux": {
+		"depend": [
+			"eventemitter3"
+		],
+		"support": [],
+		"native": false
+	},
+	"jslint": {
+		"depend": [
+			"exit",
+			"glob",
+			"nopt",
+			"readable-stream"
+		],
+		"support": [],
+		"native": false
+	},
+	"metalsmith": {
+		"depend": [
+			"absolute",
+			"async",
+			"chalk",
+			"clone",
+			"co-fs-extra",
+			"commander",
+			"fs-extra",
+			"gray-matter",
+			"has-generators",
+			"is",
+			"is-utf8",
+			"recursive-readdir",
+			"rimraf",
+			"stat-mode",
+			"thunkify",
+			"unyield",
+			"ware",
+			"win-fork"
+		],
+		"support": [],
+		"native": false
+	},
+	"feedparser": {
+		"depend": [
+			"sax",
+			"addressparser",
+			"array-indexofobject",
+			"readable-stream"
+		],
+		"support": [],
+		"native": false
+	},
+	"merge": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"page": {
+		"depend": [
+			"path-to-regexp"
+		],
+		"support": [],
+		"native": false
+	},
+	"purdy": {
+		"depend": [
+			"hoek"
+		],
+		"support": [],
+		"native": false
+	},
+	"sails-generate-auth": {
+		"depend": [
+			"lodash"
+		],
+		"support": [],
+		"native": false
+	},
+	"rollup": {
+		"depend": [
+			"chalk",
+			"minimist",
+			"source-map-support"
+		],
+		"support": [],
+		"native": false
+	},
+	"youtube-api": {
+		"depend": [
+			"googleapis"
+		],
+		"support": [],
+		"native": false
+	},
+	"excel4node": {
+		"depend": [
+			"colors",
+			"image-size",
+			"jszip",
+			"lodash",
+			"mime",
+			"sloth-logger",
+			"xmlbuilder"
+		],
+		"support": [],
+		"native": false
+	},
+	"lwip": {
+		"depend": [
+			"async",
+			"bindings",
+			"decree",
+			"nan"
+		],
+		"support": [],
+		"native": true
+	},
+	"budo": {
+		"depend": [
+			"bole",
+			"browserify",
+			"chokidar",
+			"connect-pushstate",
+			"events",
+			"garnish",
+			"get-ports",
+			"inject-lr-script",
+			"internal-ip",
+			"micromatch",
+			"minimist",
+			"once",
+			"opn",
+			"resolve",
+			"resp-modifier",
+			"serve-static",
+			"simple-html-index",
+			"stacked",
+			"stdout-stream",
+			"strip-ansi",
+			"term-color",
+			"tiny-lr",
+			"url-trim",
+			"watchify-middleware",
+			"xtend"
+		],
+		"support": [],
+		"native": false
+	},
+	"sloc": {
+		"depend": [
+			"async",
+			"cli-table",
+			"commander",
+			"readdirp"
+		],
+		"support": [],
+		"native": false
+	},
+	"factor-bundle": {
+		"depend": [
+			"JSONStream",
+			"browser-pack",
+			"defined",
+			"deps-topo-sort",
+			"inherits",
+			"isarray",
+			"labeled-stream-splicer",
+			"minimist",
+			"nub",
+			"outpipe",
+			"reversepoint",
+			"stream-combiner",
+			"through2",
+			"xtend"
+		],
+		"support": [],
+		"native": false
+	},
+	"css": {
+		"depend": [
+			"source-map",
+			"source-map-resolve",
+			"urix",
+			"inherits"
+		],
+		"support": [],
+		"native": false
+	},
+	"kafka-node": {
+		"depend": [
+			"async",
+			"binary",
+			"buffer-crc32",
+			"buffermaker",
+			"debug",
+			"lodash",
+			"node-uuid",
+			"node-zookeeper-client",
+			"retry",
+			"snappy"
+		],
+		"support": [],
+		"native": false
+	},
+	"step": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"gulp-tap": {
+		"depend": [
+			"event-stream"
+		],
+		"support": [],
+		"native": false
+	},
+	"cache-manager": {
+		"depend": [
+			"async"
+		],
+		"support": [],
+		"native": false
+	},
+	"gulp-markdown": {
+		"depend": [
+			"gulp-util"
+		],
+		"support": [],
+		"native": false
+	},
+	"retry": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"sinon-chai": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"passport-twitter": {
+		"depend": [
+			"passport-oauth1"
+		],
+		"support": [],
+		"native": false
+	},
+	"webpagetest": {
+		"depend": [
+			"commander",
+			"csv",
+			"entities",
+			"mocha",
+			"xml2js"
+		],
+		"support": [],
+		"native": false
+	},
+	"ftp": {
+		"depend": [
+			"xregexp"
+		],
+		"support": [],
+		"native": false
+	},
+	"cordova-plugin-device": {
+		"depend": [],
+		"support": [],
+		"native": true
+	},
+	"jsonschema": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"sendgrid": {
+		"depend": [
+			"mime",
+			"request",
+			"lodash",
+			"smtpapi"
+		],
+		"support": [],
+		"native": false
+	},
+	"amqplib": {
+		"depend": [
+			"bitsyntax",
+			"buffer-more-ints",
+			"readable-stream",
+			"when"
+		],
+		"support": [],
+		"native": false
+	},
+	"socket.io-redis": {
+		"depend": [
+			"async",
+			"debug",
+			"msgpack-js",
+			"redis",
+			"socket",
+			"uid2"
+		],
+		"support": [],
+		"native": false
+	},
+	"htmlparser": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"sprity": {
+		"depend": [
+			"bluebird",
+			"color",
+			"colors",
+			"cssesc",
+			"fs-extra",
+			"handlebars",
+			"imageinfo",
+			"layout",
+			"lodash",
+			"nomnom",
+			"parse-filepath",
+			"prettydiff",
+			"ternary-stream",
+			"through2",
+			"vinyl",
+			"vinyl-fs",
+			"sprity-css",
+			"sprity-lwip"
+		],
+		"support": [],
+		"native": false
+	},
+	"cookies": {
+		"depend": [
+			"depd"
+		],
+		"support": [],
+		"native": false
+	},
+	"gulp-exec": {
+		"depend": [
+			"gulp-util"
+		],
+		"support": [],
+		"native": false
+	},
+	"ua-parser-js": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"hbs": {
+		"depend": [
+			"handlebars"
+		],
+		"support": [],
+		"native": false
+	},
+	"modernizr": {
+		"depend": [
+			"doctrine",
+			"file",
+			"find-parent-dir",
+			"lodash",
+			"marked",
+			"mkdirp",
+			"requirejs",
+			"yargs"
+		],
+		"support": [],
+		"native": false
+	},
+	"selenium-standalone": {
+		"depend": [
+			"urijs",
+			"async",
+			"commander",
+			"lodash",
+			"minimist",
+			"mkdirp",
+			"progress",
+			"request",
+			"unzip",
+			"which"
+		],
+		"support": [],
+		"native": false
+	},
+	"grunt-ng-annotate": {
+		"depend": [
+			"lodash"
+		],
+		"support": [],
+		"native": false
+	},
+	"gulp-rev-collector": {
+		"depend": [
+			"gulp-util",
+			"through2",
+			"underscore"
+		],
+		"support": [],
+		"native": false
+	},
+	"favicons": {
+		"depend": [
+			"async",
+			"cheerio",
+			"clone",
+			"colors",
+			"harmony-reflect",
+			"image-size",
+			"jimp",
+			"jsontoxml",
+			"merge-defaults",
+			"mkdirp",
+			"node-rest-client",
+			"require-directory",
+			"through2",
+			"tinycolor2",
+			"underscore",
+			"vinyl"
+		],
+		"support": [],
+		"native": false
+	},
+	"angular-ui-router": {
+		"depend": [
+			"angular"
+		],
+		"support": [],
+		"native": false
+	},
+	"node-red": {
+		"depend": [
+			"basic-auth",
+			"bcryptjs",
+			"body-parser",
+			"cheerio",
+			"clone",
+			"cors",
+			"cron",
+			"express",
+			"follow-redirects",
+			"fs-extra",
+			"fs",
+			"i18next",
+			"is-utf8",
+			"media-typer",
+			"mqtt",
+			"mustache",
+			"nopt",
+			"oauth2orize",
+			"on-headers",
+			"passport",
+			"passport-http-bearer",
+			"passport-oauth2-client-password",
+			"raw-body",
+			"semver",
+			"sentiment",
+			"uglify-js",
+			"when",
+			"ws",
+			"xml2js",
+			"node-red-node-feedparser",
+			"node-red-node-email",
+			"node-red-node-twitter",
+			"node-red-node-rbe",
+			"node-red-node-serialport",
+			"bcrypt"
+		],
+		"support": [],
+		"native": false
+	},
+	"unzip": {
+		"depend": [
+			"fstream",
+			"pullstream",
+			"binary",
+			"readable-stream",
+			"setimmediate",
+			"match-stream"
+		],
+		"support": [],
+		"native": false
+	},
+	"gulp-traceur": {
+		"depend": [
+			"gulp-util",
+			"object-assign",
+			"through2",
+			"traceur",
+			"vinyl-sourcemaps-apply"
+		],
+		"support": [],
+		"native": false
+	},
+	"xmldom": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"plato": {
+		"depend": [
+			"escomplex-js",
+			"fs-extra",
+			"glob",
+			"jshint",
+			"lodash",
+			"posix-getopt",
+			"complexity-report",
+			"eslint"
+		],
+		"support": [],
+		"native": false
+	},
+	"libxmljs": {
+		"depend": [
+			"bindings"
+		],
+		"support": [],
+		"native": true
+	},
+	"react-redux": {
+		"depend": [
+			"hoist-non-react-statics",
+			"invariant",
+			"lodash",
+			"loose-envify"
+		],
+		"support": [],
+		"native": false
+	},
+	"onchange": {
+		"depend": [
+			"arrify",
+			"chokidar",
+			"cross-spawn",
+			"minimist"
+		],
+		"support": [],
+		"native": false
+	},
+	"karma-mocha": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"globby": {
+		"depend": [
+			"array-union",
+			"arrify",
+			"glob",
+			"object-assign",
+			"pify",
+			"pinkie-promise"
+		],
+		"support": [],
+		"native": false
+	},
+	"mandrill-api": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"napa": {
+		"depend": [
+			"download",
+			"extend",
+			"load-json-file",
+			"minimist",
+			"mkdirp",
+			"npm-cache-filename",
+			"npmlog",
+			"rimraf",
+			"tar-pack",
+			"write-json-file"
+		],
+		"support": [],
+		"native": false
+	},
+	"gulp-install": {
+		"depend": [
+			"gulp-util"
+		],
+		"support": [],
+		"native": false
+	},
+	"growl": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"gulp-sprite-generator": {
+		"depend": [
+			"async",
+			"colors",
+			"gulp-util",
+			"lodash",
+			"q",
+			"spritesmith",
+			"through2",
+			"vinyl"
+		],
+		"support": [],
+		"native": false
+	},
+	"sprintf-js": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"dependency-check": {
+		"depend": [
+			"async",
+			"builtins",
+			"detective",
+			"minimist",
+			"read-package-json",
+			"resolve",
+			"is-relative",
+			"debug"
+		],
+		"support": [],
+		"native": false
+	},
+	"gulp-remember": {
+		"depend": [
+			"gulp-util"
+		],
+		"support": [],
+		"native": false
+	},
+	"ember": {
+		"depend": [
+			"handlebars",
+			"window",
+			"jquery",
+			"convoy"
+		],
+		"support": [],
+		"native": false
+	},
+	"instagram-node": {
+		"depend": [
+			"fwk"
+		],
+		"support": [],
+		"native": false
+	},
+	"koa-router": {
+		"depend": [
+			"debug",
+			"http-errors",
+			"methods",
+			"path-to-regexp"
+		],
+		"support": [],
+		"native": false
+	},
+	"iconv": {
+		"depend": [
+			"nan"
+		],
+		"support": [],
+		"native": true
+	},
+	"gulp-jsdoc": {
+		"depend": [
+			"through2",
+			"gulp-util",
+			"chalk",
+			"text-table",
+			"vinyl-fs",
+			"jsdoc",
+			"taffydb",
+			"ink-docstrap",
+			"wrench",
+			"marked"
+		],
+		"support": [],
+		"native": false
+	},
+	"fastclick": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"nativescript": {
+		"depend": [
+			"bluebird",
+			"bplist-parser",
+			"broccoli",
+			"broccoli-funnel",
+			"bufferpack",
+			"bufferutil",
+			"byline",
+			"chalk",
+			"cli-table",
+			"clui",
+			"colors",
+			"esprima",
+			"ffi",
+			"fibers",
+			"filesize",
+			"gaze",
+			"glob",
+			"iconv-lite",
+			"inquirer",
+			"ios-sim-portable",
+			"lockfile",
+			"lodash",
+			"log4js",
+			"marked",
+			"marked-terminal",
+			"minimatch",
+			"mkdirp",
+			"moment",
+			"mute-stream",
+			"node-inspector",
+			"node-uuid",
+			"npm",
+			"open",
+			"osenv",
+			"plist",
+			"plist-merge-patch",
+			"plistlib",
+			"progress-stream",
+			"properties-parser",
+			"ref",
+			"ref-struct",
+			"semver",
+			"shelljs",
+			"tabtab",
+			"temp",
+			"utf-8-validate",
+			"winreg",
+			"ws",
+			"xcode",
+			"xmldom",
+			"xmlhttprequest",
+			"yargs"
+		],
+		"support": [],
+		"native": false
+	},
+	"Faker": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"scripty": {
+		"depend": [
+			"async"
+		],
+		"support": [],
+		"native": false
+	},
+	"oracledb": {
+		"depend": [
+			"nan"
+		],
+		"support": [],
+		"native": true
+	},
+	"webdriverio": {
+		"depend": [
+			"archiver",
+			"babel-runtime",
+			"css-parse",
+			"css-value",
+			"deepmerge",
+			"ejs",
+			"glob",
+			"inquirer",
+			"json-stringify-safe",
+			"mkdirp",
+			"npm-install-package",
+			"optimist",
+			"q",
+			"request",
+			"rgb2hex",
+			"supports-color",
+			"url",
+			"validator",
+			"wdio-dot-reporter",
+			"wgxpath"
+		],
+		"support": [],
+		"native": true
+	},
+	"gulp-grunt": {
+		"depend": [
+			"grunt"
+		],
+		"support": [],
+		"native": false
+	},
+	"csvtojson": {
+		"depend": [
+			"async"
+		],
+		"support": [],
+		"native": false
+	},
+	"bower-installer": {
+		"depend": [
+			"node-fs",
+			"bower",
+			"colors",
+			"lodash",
+			"glob",
+			"nopt",
+			"async",
+			"mkdirp"
+		],
+		"support": [],
+		"native": false
+	},
+	"mobile-detect": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"stream-adventure": {
+		"depend": [
+			"adventure",
+			"adventure-verify",
+			"browserify",
+			"chunky",
+			"clone",
+			"concat-stream",
+			"duplexer2",
+			"hyperquest",
+			"mkdirp",
+			"optimist",
+			"osenv",
+			"provinces",
+			"request",
+			"split",
+			"stream-combiner",
+			"tar",
+			"terminal-menu",
+			"through2",
+			"trumpet",
+			"tuple-stream",
+			"websocket-stream",
+			"wordwrap",
+			"x256"
+		],
+		"support": [],
+		"native": false
+	},
+	"protobufjs": {
+		"depend": [
+			"ascli",
+			"bytebuffer",
+			"glob",
+			"yargs"
+		],
+		"support": [],
+		"native": false
+	},
+	"grunt-replace": {
+		"depend": [
+			"chalk",
+			"lodash",
+			"applause",
+			"file-sync-cmp"
+		],
+		"support": [],
+		"native": false
+	},
+	"textract": {
+		"depend": [
+			"mime",
+			"pdf-text-extract",
+			"xpath",
+			"xmldom",
+			"j",
+			"cheerio",
+			"marked",
+			"meow",
+			"got",
+			"html-entities",
+			"yauzl"
+		],
+		"support": [],
+		"native": false
+	},
+	"grunt-bump": {
+		"depend": [
+			"semver"
+		],
+		"support": [],
+		"native": false
+	},
+	"findit": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"imagemin-pngcrush": {
+		"depend": [
+			"exec-buffer",
+			"is-png",
+			"pngcrush-bin",
+			"through2"
+		],
+		"support": [],
+		"native": false
+	},
+	"sql": {
+		"depend": [
+			"sliced"
+		],
+		"support": [],
+		"native": false
+	},
+	"velocity-animate": {
+		"depend": [
+			"jquery"
+		],
+		"support": [],
+		"native": false
+	},
+	"caniuse-cmd": {
+		"depend": [
+			"caniuse-db",
+			"coffee-script",
+			"colors",
+			"linewrap",
+			"open",
+			"os-homedir",
+			"yargs"
+		],
+		"support": [],
+		"native": false
+	},
+	"noble": {
+		"depend": [
+			"debug",
+			"bluetooth-hci-socket",
+			"bplist-parser",
+			"xpc-connection"
+		],
+		"support": [],
+		"native": false
+	},
+	"memoizee": {
+		"depend": [
+			"d",
+			"es5-ext",
+			"es6-weak-map",
+			"event-emitter",
+			"lru-queue",
+			"next-tick",
+			"timers-ext"
+		],
+		"support": [],
+		"native": false
+	},
+	"mongoose-validator": {
+		"depend": [
+			"underscore"
+		],
+		"support": [],
+		"native": false
+	},
+	"cradle": {
+		"depend": [
+			"follow"
+		],
+		"support": [],
+		"native": false
+	},
+	"shader-school": {
+		"depend": [
+			"a-big-triangle",
+			"apprise",
+			"autoprefixer",
+			"baboon-image",
+			"beefy",
+			"brfs",
+			"browser-menu",
+			"browserify",
+			"canvas-fit",
+			"chalk",
+			"clamp",
+			"conway-hart",
+			"domify",
+			"ecstatic",
+			"envify",
+			"findup-element",
+			"frame-debounce",
+			"gl-axes",
+			"gl-buffer",
+			"gl-compare",
+			"gl-compare-sidebar",
+			"gl-context",
+			"gl-fbo",
+			"gl-fbo-matching",
+			"gl-matrix",
+			"gl-texture2d",
+			"gl-vao",
+			"glsldoc",
+			"glslify",
+			"glslify-live",
+			"google-fonts",
+			"highlight",
+			"inquirer",
+			"insert-css",
+			"marked",
+			"mesh-normals",
+			"mkdirp",
+			"mouse-position",
+			"mouse-pressed",
+			"ndarray",
+			"ndarray-distance",
+			"opener",
+			"quotemeta",
+			"raf",
+			"remove-element",
+			"rework",
+			"rework-inline",
+			"rework-npm",
+			"right-now",
+			"sidenote",
+			"sliced",
+			"stanford-dragon",
+			"wordwrap",
+			"xhr",
+			"zfill"
+		],
+		"support": [],
+		"native": false
+	},
+	"gulp-rsync": {
+		"depend": [
+			"better-assert",
+			"lodash",
+			"gulp-util",
+			"through2"
+		],
+		"support": [],
+		"native": false
+	},
+	"json-query": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"app-module-path": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"gulp-template": {
+		"depend": [
+			"gulp-util"
+		],
+		"support": [],
+		"native": false
+	},
+	"gulp-open": {
+		"depend": [
+			"colors",
+			"gulp-util",
+			"open",
+			"through2"
+		],
+		"support": [],
+		"native": false
+	},
+	"rss": {
+		"depend": [
+			"mime-types"
+		],
+		"support": [],
+		"native": false
+	},
+	"jit-grunt": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"babel-plugin-add-module-exports": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"stream-combiner": {
+		"depend": [
+			"duplexer"
+		],
+		"support": [],
+		"native": false
+	},
+	"core-js": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"passport-google-oauth": {
+		"depend": [
+			"passport-google-oauth1",
+			"passport-google-oauth20"
+		],
+		"support": [],
+		"native": false
+	},
+	"dockerode": {
+		"depend": [
+			"docker-modem"
+		],
+		"support": [],
+		"native": false
+	},
+	"grunt-contrib-qunit": {
+		"depend": [
+			"grunt-lib-phantomjs"
+		],
+		"support": [],
+		"native": false
+	},
+	"ini": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"coveralls": {
+		"depend": [
+			"js-yaml",
+			"lcov-parse",
+			"log-driver",
+			"request",
+			"minimist"
+		],
+		"support": [],
+		"native": false
+	},
+	"jszip": {
+		"depend": [
+			"es6-promise",
+			"pako",
+			"readable-stream",
+			"asap"
+		],
+		"support": [],
+		"native": false
+	},
+	"wechat": {
+		"depend": [
+			"xml2js"
+		],
+		"support": [],
+		"native": false
+	},
+	"nunjucks": {
+		"depend": [
+			"asap"
+		],
+		"support": [],
+		"native": false
+	},
+	"nodeunit": {
+		"depend": [
+			"tap"
+		],
+		"support": [],
+		"native": false
+	},
+	"grunt-wordpress-deploy": {
+		"depend": [
+			"shelljs"
+		],
+		"support": [],
+		"native": false
+	},
+	"json-stringify-safe": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"gulp-css-base64": {
+		"depend": [
+			"async",
+			"buffers",
+			"chalk",
+			"gulp-util",
+			"mime",
+			"request",
+			"through2"
+		],
+		"support": [],
+		"native": false
+	},
+	"csso": {
+		"depend": [
+			"clap"
+		],
+		"support": [],
+		"native": false
+	},
+	"gulp-svg-sprites": {
+		"depend": [
+			"dust",
+			"dustjs-linkedin",
+			"gulp-util",
+			"libxmljs",
+			"lodash",
+			"q",
+			"svg-sprite-data",
+			"svgo",
+			"through2",
+			"vinyl"
+		],
+		"support": [],
+		"native": false
+	},
+	"slush": {
+		"depend": [
+			"glob",
+			"minimist",
+			"gulp-util",
+			"pretty-hrtime",
+			"archy",
+			"liftoff",
+			"chalk"
+		],
+		"support": [],
+		"native": false
+	},
+	"grunt-contrib-jade": {
+		"depend": [
+			"chalk"
+		],
+		"support": [],
+		"native": false
+	},
+	"engine.io": {
+		"depend": [
+			"base64id",
+			"debug",
+			"ws",
+			"engine",
+			"accepts"
+		],
+		"support": [],
+		"native": false
+	},
+	"node-forge": {
+		"depend": [],
+		"support": [],
+		"native": true
+	},
+	"wd": {
+		"depend": [
+			"archiver",
+			"async",
+			"lodash",
+			"q",
+			"request",
+			"underscore",
+			"vargs"
+		],
+		"support": [],
+		"native": false
+	},
+	"gulp-s3": {
+		"depend": [
+			"async",
+			"event-stream",
+			"gulp-util",
+			"knox",
+			"mime"
+		],
+		"support": [],
+		"native": false
+	},
+	"mosca": {
+		"depend": [
+			"ascoltatori",
+			"async",
+			"brfs",
+			"bunyan",
+			"clone",
+			"commander",
+			"deepcopy",
+			"extend",
+			"json-buffer",
+			"jsonschema",
+			"level-sublevel",
+			"levelup",
+			"lru-cache",
+			"memdown",
+			"minimatch",
+			"moment",
+			"moving-average",
+			"mqtt",
+			"mqtt-connection",
+			"msgpack5",
+			"pbkdf2-password",
+			"qlobber",
+			"retimer",
+			"shortid",
+			"st",
+			"uuid",
+			"websocket-stream",
+			"leveldown",
+			"zmq",
+			"amqp",
+			"redis",
+			"hiredis",
+			"mongodb"
+		],
+		"support": [],
+		"native": false
+	},
+	"grunt-bower": {
+		"depend": [
+			"bower"
+		],
+		"support": [],
+		"native": false
+	},
+	"electron-builder": {
+		"depend": [
+			"7zip-bin",
+			"asar",
+			"bluebird",
+			"chalk",
+			"command-line-args",
+			"compare-versions",
+			"debug",
+			"deep-assign",
+			"electron-osx-sign-tf",
+			"electron-packager-tf",
+			"electron-winstaller-fixed",
+			"fs-extra-p",
+			"globby",
+			"hosted-git-info",
+			"image-size",
+			"lodash",
+			"mime",
+			"progress",
+			"progress-stream",
+			"read-package-json",
+			"signcode-tf",
+			"source-map-support",
+			"tmp",
+			"appdmg"
+		],
+		"support": [],
+		"native": false
+	},
+	"gulp-htmlhint": {
+		"depend": [
+			"gulp-util",
+			"htmlhint",
+			"strip-json-comments",
+			"through2"
+		],
+		"support": [],
+		"native": false
+	},
+	"gulp-compile-handlebars": {
+		"depend": [
+			"gulp-util",
+			"through2",
+			"handlebars"
+		],
+		"support": [],
+		"native": false
+	},
+	"flatten-packages": {
+		"depend": [
+			"semver",
+			"wrench",
+			"commander",
+			"colors"
+		],
+		"support": [],
+		"native": false
+	},
+	"nw": {
+		"depend": [
+			"decompress",
+			"download",
+			"file-exists",
+			"merge",
+			"multimeter",
+			"rimraf",
+			"semver",
+			"yargs",
+			"chalk"
+		],
+		"support": [],
+		"native": false
+	},
+	"faucet": {
+		"depend": [
+			"through2",
+			"tap-parser",
+			"duplexer",
+			"sprintf",
+			"tape",
+			"minimist",
+			"defined"
+		],
+		"support": [],
+		"native": false
+	},
+	"spritesmith": {
+		"depend": [
+			"concat-stream",
+			"layout",
+			"pixelsmith",
+			"semver",
+			"through2"
+		],
+		"support": [],
+		"native": false
+	},
+	"letsencrypt": {
+		"depend": [
+			"bluebird",
+			"homedir",
+			"letiny-core",
+			"mkdirp",
+			"pyconf",
+			"request",
+			"safe-replace"
+		],
+		"support": [],
+		"native": false
+	},
+	"seaport": {
+		"depend": [
+			"defined",
+			"indexof",
+			"inherits",
+			"merge",
+			"object-keys",
+			"optimist",
+			"readable-stream",
+			"secure-peer",
+			"semver",
+			"split",
+			"stream-combiner",
+			"through"
+		],
+		"support": [],
+		"native": false
+	},
+	"tough-cookie": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"hashids": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"greenkeeper": {
+		"depend": [
+			"greenkeeper",
+			"abbrev",
+			"chalk",
+			"char-spinner",
+			"cli-md",
+			"github-slug",
+			"hide-secrets",
+			"inquirer",
+			"json-preserve-indent",
+			"lodash",
+			"nerf-dart",
+			"node-emoji",
+			"npm-registry-client",
+			"npmlog",
+			"opener",
+			"random-string",
+			"request",
+			"update-notifier",
+			"valid-url",
+			"validator"
+		],
+		"support": [],
+		"native": false
+	},
+	"object-path": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"grunt-wiredep": {
+		"depend": [
+			"wiredep"
+		],
+		"support": [],
+		"native": false
+	},
+	"parcelify": {
+		"depend": [
+			"async",
+			"glob",
+			"globwatcher",
+			"inherits",
+			"minimist",
+			"mkdirp",
+			"npmlog",
+			"parcel-map",
+			"resolve",
+			"shasum",
+			"stream-combiner",
+			"through2",
+			"toposort",
+			"underscore"
+		],
+		"support": [],
+		"native": false
+	},
+	"protocol-buffers": {
+		"depend": [
+			"generate-function",
+			"generate-object-property",
+			"protocol-buffers-schema",
+			"signed-varint",
+			"brfs",
+			"varint"
+		],
+		"support": [],
+		"native": false
+	},
+	"convict": {
+		"depend": [
+			"depd",
+			"json5",
+			"moment",
+			"optimist",
+			"validator",
+			"varify"
+		],
+		"support": [],
+		"native": false
+	},
+	"vorpal": {
+		"depend": [
+			"babel-polyfill",
+			"chalk",
+			"in-publish",
+			"inquirer",
+			"lodash",
+			"log-update",
+			"minimist",
+			"node-localstorage",
+			"strip-ansi",
+			"wrap-ansi"
+		],
+		"support": [],
+		"native": false
+	},
+	"grunt-mocha-test": {
+		"depend": [
+			"hooker"
+		],
+		"support": [],
+		"native": false
+	},
+	"limiter": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"body": {
+		"depend": [
+			"continuable-cache",
+			"error",
+			"raw-body",
+			"safe-json-parse"
+		],
+		"support": [],
+		"native": false
+	},
+	"hyperquest": {
+		"depend": [
+			"duplexer2"
+		],
+		"support": [],
+		"native": false
+	},
+	"grunt-webfont": {
+		"depend": [
+			"async",
+			"chalk",
+			"glob",
+			"lodash",
+			"memorystream",
+			"mkdirp",
+			"svg2ttf",
+			"svgicons2svgfont",
+			"svgo",
+			"temp",
+			"ttf2eot",
+			"ttf2woff",
+			"ttf2woff2",
+			"underscore",
+			"winston"
+		],
+		"support": [],
+		"native": false
+	},
+	"tiny-lr": {
+		"depend": [
+			"body-parser",
+			"debug",
+			"faye-websocket",
+			"livereload-js",
+			"parseurl",
+			"qs"
+		],
+		"support": [],
+		"native": false
+	},
+	"deployd": {
+		"depend": [
+			"async",
+			"bluebird",
+			"commander",
+			"cookies",
+			"corser",
+			"debug",
+			"doh",
+			"ejs",
+			"filed",
+			"mkdirp",
+			"mongodb",
+			"opener",
+			"qs",
+			"request",
+			"scrubber",
+			"semver",
+			"send",
+			"shelljs",
+			"socket",
+			"step",
+			"underscore",
+			"validation",
+			"wrench"
+		],
+		"support": [],
+		"native": false
+	},
+	"cuid": {
+		"depend": [
+			"browser-fingerprint",
+			"core-js",
+			"node-fingerprint"
+		],
+		"support": [],
+		"native": false
+	},
+	"browserify-middleware": {
+		"depend": [
+			"browserify",
+			"ms",
+			"prepare-response",
+			"promise",
+			"uglify-js",
+			"watchify"
+		],
+		"support": [],
+		"native": false
+	},
+	"event-emitter": {
+		"depend": [
+			"es5-ext"
+		],
+		"support": [],
+		"native": false
+	},
+	"strider": {
+		"depend": [
+			"ansi",
+			"async",
+			"bcryptjs",
+			"bluebird",
+			"body-parser",
+			"cli-table",
+			"compression",
+			"connect",
+			"connect-flash",
+			"connect-mongo",
+			"connect-slashes",
+			"cookie",
+			"cookie-parser",
+			"cors",
+			"debug",
+			"errorhandler",
+			"eventemitter2",
+			"everypaas",
+			"express",
+			"express-session",
+			"extend",
+			"global-tunnel",
+			"gravatar",
+			"httpcheck",
+			"jade",
+			"lodash",
+			"mailer",
+			"md5",
+			"method-override",
+			"moment",
+			"mongoose",
+			"morgan",
+			"nodemailer",
+			"passport",
+			"passport-local",
+			"path-to-regexp",
+			"rc",
+			"request",
+			"semver",
+			"serve-favicon",
+			"socket",
+			"ssh-keypair",
+			"step",
+			"strider-bitbucket",
+			"strider-build-badge",
+			"strider-cli",
+			"strider-custom",
+			"strider-ecosystem-client",
+			"strider-email-notifier",
+			"strider-env",
+			"strider-extension-loader",
+			"strider-git",
+			"strider-github",
+			"strider-gitlab",
+			"strider-heroku",
+			"strider-mailer",
+			"strider-metadata",
+			"strider-node",
+			"strider-python",
+			"strider-ruby",
+			"strider-simple-runner",
+			"strider-slack",
+			"strider-ssh-deploy",
+			"superagent",
+			"swig",
+			"thirty-two",
+			"validator",
+			"winston"
+		],
+		"support": [],
+		"native": false
+	},
+	"csv-parser": {
+		"depend": [
+			"generate-function",
+			"generate-object-property",
+			"inherits",
+			"minimist",
+			"ndjson"
+		],
+		"support": [],
+		"native": false
+	},
+	"kraken-js": {
+		"depend": [
+			"bluebird",
+			"body-parser",
+			"caller",
+			"compression",
+			"confit",
+			"cookie-parser",
+			"core-util-is",
+			"debuglog",
+			"depd",
+			"endgame",
+			"express-enrouten",
+			"express-session",
+			"formidable",
+			"lusca",
+			"meddleware",
+			"morgan",
+			"serve-favicon",
+			"serve-static",
+			"shortstop",
+			"shortstop-handlers",
+			"shortstop-resolve",
+			"shush"
+		],
+		"support": [],
+		"native": false
+	},
+	"gulp-istanbul": {
+		"depend": [
+			"gulp-util",
+			"istanbul",
+			"istanbul-threshold-checker",
+			"lodash",
+			"through2"
+		],
+		"support": [],
+		"native": false
+	},
+	"grunt-node-webkit-builder": {
+		"depend": [
+			"node-webkit-builder"
+		],
+		"support": [],
+		"native": false
+	},
+	"chromedriver": {
+		"depend": [
+			"adm-zip",
+			"kew",
+			"mkdirp",
+			"npmconf",
+			"rimraf"
+		],
+		"support": [],
+		"native": false
+	},
+	"configstore": {
+		"depend": [
+			"dot-prop",
+			"graceful-fs",
+			"mkdirp",
+			"object-assign",
+			"os-tmpdir",
+			"osenv",
+			"uuid",
+			"write-file-atomic",
+			"xdg-basedir"
+		],
+		"support": [],
+		"native": false
+	},
+	"slackbots": {
+		"depend": [
+			"extend",
+			"request",
+			"vow",
+			"ws"
+		],
+		"support": [],
+		"native": false
+	},
+	"jsontool": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"grunt-eslint": {
+		"depend": [
+			"chalk"
+		],
+		"support": [],
+		"native": false
+	},
+	"generator-polymer": {
+		"depend": [
+			"chalk",
+			"html-wiring",
+			"js-beautify",
+			"lodash",
+			"mkdirp",
+			"ncp",
+			"rimraf",
+			"validate-element-name",
+			"yeoman-generator",
+			"yosay"
+		],
+		"support": [],
+		"native": false
+	},
+	"gulp-base64": {
+		"depend": [
+			"through2",
+			"extend",
+			"async",
+			"mime",
+			"request",
+			"buffers"
+		],
+		"support": [],
+		"native": false
+	},
+	"worker-farm": {
+		"depend": [
+			"errno"
+		],
+		"support": [],
+		"native": false
+	},
+	"mongoose-unique-validator": {
+		"depend": [
+			"lodash"
+		],
+		"support": [],
+		"native": false
+	},
+	"babel-cli": {
+		"depend": [
+			"babel-core",
+			"babel-register",
+			"babel-polyfill",
+			"babel-runtime",
+			"bin-version-check",
+			"chalk",
+			"commander",
+			"convert-source-map",
+			"fs-readdir-recursive",
+			"glob",
+			"lodash",
+			"log-symbols",
+			"output-file-sync",
+			"path-exists",
+			"path-is-absolute",
+			"request",
+			"slash",
+			"source-map",
+			"v8flags",
+			"chokidar"
+		],
+		"support": [],
+		"native": false
+	},
+	"xregexp": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"readdirp": {
+		"depend": [
+			"graceful-fs",
+			"minimatch",
+			"readable-stream"
+		],
+		"support": [],
+		"native": false
+	},
+	"send": {
+		"depend": [
+			"debug",
+			"depd",
+			"destroy",
+			"escape-html",
+			"etag",
+			"fresh",
+			"http-errors",
+			"mime",
+			"ms",
+			"on-finished",
+			"range-parser",
+			"statuses"
+		],
+		"support": [],
+		"native": false
+	},
+	"gulp-angular-filesort": {
+		"depend": [
+			"gulp-util",
+			"event-stream",
+			"ng-dependencies",
+			"toposort"
+		],
+		"support": [],
+		"native": false
+	},
+	"mockery": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"cordova-plugin-file": {
+		"depend": [],
+		"support": [],
+		"native": true
+	},
+	"flickrapi": {
+		"depend": [
+			"async",
+			"glob",
+			"open",
+			"progress",
+			"prompt",
+			"request"
+		],
+		"support": [],
+		"native": false
+	},
+	"grunt-jscs": {
+		"depend": [
+			"hooker",
+			"jscs",
+			"lodash",
+			"vow"
+		],
+		"support": [],
+		"native": false
+	},
+	"ember-truth-helpers": {
+		"depend": [
+			"ember-cli-babel"
+		],
+		"support": [],
+		"native": false
+	},
+	"clipboard": {
+		"depend": [
+			"good-listener",
+			"select",
+			"tiny-emitter"
+		],
+		"support": [],
+		"native": false
+	},
+	"cssnano": {
+		"depend": [
+			"autoprefixer",
+			"decamelize",
+			"defined",
+			"indexes-of",
+			"object-assign",
+			"postcss",
+			"postcss-calc",
+			"postcss-colormin",
+			"postcss-convert-values",
+			"postcss-discard-comments",
+			"postcss-discard-duplicates",
+			"postcss-discard-empty",
+			"postcss-discard-overridden",
+			"postcss-discard-unused",
+			"postcss-filter-plugins",
+			"postcss-merge-idents",
+			"postcss-merge-longhand",
+			"postcss-merge-rules",
+			"postcss-minify-font-values",
+			"postcss-minify-gradients",
+			"postcss-minify-params",
+			"postcss-minify-selectors",
+			"postcss-normalize-charset",
+			"postcss-normalize-url",
+			"postcss-ordered-values",
+			"postcss-reduce-idents",
+			"postcss-reduce-transforms",
+			"postcss-svgo",
+			"postcss-unique-selectors",
+			"postcss-value-parser",
+			"postcss-zindex"
+		],
+		"support": [],
+		"native": false
+	},
+	"flat": {
+		"depend": [
+			"is-buffer"
+		],
+		"support": [],
+		"native": false
+	},
+	"riot": {
+		"depend": [
+			"riot-cli",
+			"riot-compiler",
+			"riot-observable",
+			"riot-route",
+			"riot-tmpl",
+			"simple-dom",
+			"simple-html-tokenizer"
+		],
+		"support": [],
+		"native": false
+	},
+	"react-motion": {
+		"depend": [
+			"performance-now"
+		],
+		"support": [],
+		"native": false
+	},
+	"pump": {
+		"depend": [
+			"end-of-stream"
+		],
+		"support": [],
+		"native": false
+	},
+	"depcheck": {
+		"depend": [
+			"babel-traverse",
+			"babylon",
+			"builtin-modules",
+			"deprecate",
+			"deps-regex",
+			"js-yaml",
+			"lodash",
+			"minimatch",
+			"require-package-name",
+			"walkdir",
+			"yargs"
+		],
+		"support": [],
+		"native": false
+	},
+	"grunt-browser-sync": {
+		"depend": [
+			"browser-sync"
+		],
+		"support": [],
+		"native": false
+	},
+	"speed-test": {
+		"depend": [
+			"chalk",
+			"elegant-spinner",
+			"log-symbols",
+			"log-update",
+			"meow",
+			"round-to",
+			"speedtest-net",
+			"update-notifier"
+		],
+		"support": [],
+		"native": false
+	},
+	"gulp-inline-source": {
+		"depend": [
+			"inline-source",
+			"gulp-util",
+			"through2"
+		],
+		"support": [],
+		"native": false
+	},
+	"marky-markdown": {
+		"depend": [
+			"atom-language-diff",
+			"atom-language-nginx",
+			"cheerio",
+			"github-slugger",
+			"github-url-to-object",
+			"highlights",
+			"highlights-tokens",
+			"language-dart",
+			"language-erlang",
+			"language-glsl",
+			"language-haxe",
+			"language-ini",
+			"language-rust",
+			"language-stylus",
+			"lodash",
+			"markdown-it",
+			"markdown-it-lazy-headers",
+			"markdown-it-emoji",
+			"markdown-it-expand-tabs",
+			"property-ttl",
+			"sanitize-html",
+			"similarity"
+		],
+		"support": [],
+		"native": false
+	},
+	"grunt-env": {
+		"depend": [
+			"ini"
+		],
+		"support": [],
+		"native": false
+	},
+	"file-type": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"pomelo": {
+		"depend": [
+			"socket",
+			"async",
+			"seq-queue",
+			"crc",
+			"cliff",
+			"mkdirp",
+			"pomelo-loader",
+			"pomelo-rpc",
+			"pomelo-protocol",
+			"pomelo-logger",
+			"pomelo-scheduler",
+			"ws",
+			"pomelo-protobuf",
+			"node-bignumber",
+			"commander",
+			"mqtt",
+			"node-zookeeper-client",
+			"node-uuid",
+			"ioredis",
+			"redis"
+		],
+		"support": [],
+		"native": false
+	},
+	"trash": {
+		"depend": [
+			"escape-string-applescript",
+			"fs-extra",
+			"globby",
+			"path-exists",
+			"pify",
+			"pinkie-promise",
+			"run-applescript",
+			"uuid",
+			"xdg-trashdir"
+		],
+		"support": [],
+		"native": false
+	},
+	"wreck": {
+		"depend": [
+			"boom"
+		],
+		"support": [],
+		"native": false
+	},
+	"gulp-task-listing": {
+		"depend": [
+			"chalk"
+		],
+		"support": [],
+		"native": false
+	},
+	"xmlbuilder": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"component": {
+		"depend": [
+			"component-build",
+			"component-consoler",
+			"component-flatten",
+			"component-ls",
+			"component-outdated2",
+			"component-pin",
+			"component-resolver",
+			"component-search2",
+			"component-updater",
+			"component-watcher",
+			"component-remotes",
+			"commander",
+			"semver",
+			"mkdirp",
+			"rimraf",
+			"superagent",
+			"win-fork",
+			"debug",
+			"co",
+			"tiny-lr-fork"
+		],
+		"support": [],
+		"native": false
+	},
+	"require-directory": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"limdu": {
+		"depend": [
+			"brain",
+			"graph-paths",
+			"languagemodel",
+			"sprintf",
+			"svm",
+			"temp",
+			"underscore",
+			"wordsworth",
+			"async"
+		],
+		"support": [],
+		"native": false
+	},
+	"nodeadmin": {
+		"depend": [
+			"bluebird",
+			"body-parser",
+			"express",
+			"jsonwebtoken",
+			"morgan",
+			"mysql",
+			"path",
+			"promise-mysql",
+			"randomstring",
+			"socket"
+		],
+		"support": [],
+		"native": false
+	},
+	"express-restify-mongoose": {
+		"depend": [
+			"async",
+			"is-coordinates",
+			"lodash",
+			"mongoose-detective",
+			"moredots",
+			"serialize-error",
+			"weedout"
+		],
+		"support": [],
+		"native": false
+	},
+	"koa-route": {
+		"depend": [
+			"debug"
+		],
+		"support": [],
+		"native": false
+	},
+	"prerender-node": {
+		"depend": [
+			"request"
+		],
+		"support": [],
+		"native": false
+	},
+	"keypress": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"csslint": {
+		"depend": [
+			"parserlib"
+		],
+		"support": [],
+		"native": false
+	},
+	"eyes": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"gulp-rigger": {
+		"depend": [
+			"rigger"
+		],
+		"support": [],
+		"native": false
+	},
+	"npmrc": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"node-readability": {
+		"depend": [
+			"encoding",
+			"jsdom",
+			"minimist",
+			"request"
+		],
+		"support": [],
+		"native": false
+	},
+	"gulp-css-url-adjuster": {
+		"depend": [
+			"rework",
+			"rework-plugin-url",
+			"through2",
+			"gulp-util"
+		],
+		"support": [],
+		"native": false
+	},
+	"enzyme": {
+		"depend": [
+			"cheerio",
+			"is-subset",
+			"lodash",
+			"object-is",
+			"object"
+		],
+		"support": [],
+		"native": false
+	},
+	"pixi.js": {
+		"depend": [
+			"async",
+			"brfs",
+			"browserify-versionify",
+			"earcut",
+			"eventemitter3",
+			"object-assign",
+			"resource-loader"
+		],
+		"support": [],
+		"native": false
+	},
+	"stylelint": {
+		"depend": [
+			"autoprefixer",
+			"babel-polyfill",
+			"balanced-match",
+			"chalk",
+			"colorguard",
+			"cosmiconfig",
+			"doiuse",
+			"execall",
+			"get-stdin",
+			"globby",
+			"globjoin",
+			"htmlparser2",
+			"html-tags",
+			"lodash",
+			"log-symbols",
+			"meow",
+			"multimatch",
+			"normalize-selector",
+			"postcss",
+			"postcss-less",
+			"postcss-reporter",
+			"postcss-resolve-nested-selector",
+			"postcss-scss",
+			"postcss-selector-parser",
+			"postcss-value-parser",
+			"resolve-from",
+			"specificity",
+			"string-width",
+			"stylehacks",
+			"sugarss",
+			"svg-tags",
+			"table"
+		],
+		"support": [],
+		"native": false
+	},
+	"extract-text-webpack-plugin": {
+		"depend": [
+			"async",
+			"loader-utils",
+			"webpack-sources"
+		],
+		"support": [],
+		"native": false
+	},
+	"leaflet": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"react-ui-builder": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"escape-html": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"source-map": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"line-by-line": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"recursive-readdir": {
+		"depend": [
+			"minimatch"
+		],
+		"support": [],
+		"native": false
+	},
+	"sugar": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"swagger-node-express": {
+		"depend": [
+			"lodash"
+		],
+		"support": [],
+		"native": false
+	},
+	"falcor": {
+		"depend": [
+			"asap",
+			"falcor-json-graph",
+			"falcor-path-syntax",
+			"falcor-path-utils",
+			"promise",
+			"rx"
+		],
+		"support": [],
+		"native": false
+	},
+	"karma-phantomjs-launcher": {
+		"depend": [
+			"lodash"
+		],
+		"support": [],
+		"native": false
+	},
+	"jsonlint": {
+		"depend": [
+			"nomnom"
+		],
+		"support": [],
+		"native": false
+	},
+	"gulp-add-src": {
+		"depend": [
+			"event-stream",
+			"streamqueue",
+			"through2",
+			"vinyl-fs"
+		],
+		"support": [],
+		"native": false
+	},
+	"ffi": {
+		"depend": [
+			"bindings",
+			"debug",
+			"ref",
+			"ref-struct",
+			"nan"
+		],
+		"support": [],
+		"native": true
+	},
+	"release-it": {
+		"depend": [
+			"chalk",
+			"github",
+			"glob",
+			"graceful-fs",
+			"inquirer",
+			"lodash",
+			"minimist",
+			"mkdirp",
+			"repo-path-parse",
+			"semver",
+			"shelljs",
+			"when"
+		],
+		"support": [],
+		"native": false
+	},
+	"continuation-local-storage": {
+		"depend": [
+			"async-listener"
+		],
+		"support": [],
+		"native": false
+	},
+	"systemjs": {
+		"depend": [
+			"when"
+		],
+		"support": [],
+		"native": false
+	},
+	"jQuery": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"npm-windows-upgrade": {
+		"depend": [
+			"chalk",
+			"cli-spinner",
+			"commander",
+			"inquirer",
+			"promise",
+			"prompt",
+			"regenerator-runtime-only"
+		],
+		"support": [],
+		"native": false
+	},
+	"html-to-text": {
+		"depend": [
+			"he",
+			"htmlparser",
+			"optimist",
+			"underscore"
+		],
+		"support": [],
+		"native": false
+	},
+	"easyimage": {
+		"depend": [
+			"colors"
+		],
+		"support": [],
+		"native": false
+	},
+	"husky": {
+		"depend": [
+			"normalize-path"
+		],
+		"support": [],
+		"native": false
+	},
+	"tslint": {
+		"depend": [
+			"colors",
+			"diff",
+			"findup-sync",
+			"glob",
+			"optimist",
+			"resolve",
+			"underscore"
+		],
+		"support": [],
+		"native": false
+	},
+	"fbgraph": {
+		"depend": [
+			"request"
+		],
+		"support": [],
+		"native": false
+	},
+	"gulp-beautify": {
+		"depend": [
+			"js-beautify",
+			"rcloader",
+			"through2"
+		],
+		"support": [],
+		"native": false
+	},
+	"rsvp": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"imdb-api": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"walk": {
+		"depend": [
+			"foreachasync"
+		],
+		"support": [],
+		"native": false
+	},
+	"connect-multiparty": {
+		"depend": [
+			"multiparty",
+			"on-finished",
+			"qs",
+			"type-is"
+		],
+		"support": [],
+		"native": false
+	},
+	"gulp-help": {
+		"depend": [
+			"chalk"
+		],
+		"support": [],
+		"native": false
+	},
+	"generator-webapp": {
+		"depend": [
+			"chalk",
+			"generator-jasmine",
+			"generator-mocha",
+			"mkdirp",
+			"underscore",
+			"wiredep",
+			"yeoman-assert",
+			"yeoman-generator",
+			"yosay"
+		],
+		"support": [],
+		"native": false
+	},
+	"csscomb": {
+		"depend": [
+			"commander",
+			"csscomb-core",
+			"gonzales-pe",
+			"vow"
+		],
+		"support": [],
+		"native": false
+	},
+	"squel": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"socket.io-stream": {
+		"depend": [
+			"component-bind"
+		],
+		"support": [],
+		"native": false
+	},
+	"harp": {
+		"depend": [
+			"async",
+			"commander",
+			"connect",
+			"download-github-repo",
+			"envy-json",
+			"escape-html",
+			"fs-extra",
+			"mime",
+			"parseurl",
+			"pause",
+			"send",
+			"terraform"
+		],
+		"support": [],
+		"native": false
+	},
+	"xls-to-json": {
+		"depend": [
+			"xlsjs"
+		],
+		"support": [],
+		"native": false
+	},
+	"baconjs": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"scuttlebutt": {
+		"depend": [
+			"iterate",
+			"duplex",
+			"stream-serializer",
+			"monotonic-timestamp"
+		],
+		"support": [],
+		"native": false
+	},
+	"curry": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"esformatter": {
+		"depend": [
+			"acorn-to-esprima",
+			"babel-traverse",
+			"babylon",
+			"debug",
+			"disparity",
+			"glob",
+			"minimist",
+			"mout",
+			"npm-run",
+			"resolve",
+			"rocambole",
+			"rocambole-indent",
+			"rocambole-linebreak",
+			"rocambole-node",
+			"rocambole-token",
+			"rocambole-whitespace",
+			"stdin",
+			"strip-json-comments",
+			"supports-color",
+			"user-home"
+		],
+		"support": [],
+		"native": false
+	},
+	"chart.js": {
+		"depend": [
+			"chartjs-color"
+		],
+		"support": [],
+		"native": false
+	},
+	"duplexer2": {
+		"depend": [
+			"readable-stream"
+		],
+		"support": [],
+		"native": false
+	},
+	"next-update": {
+		"depend": [
+			"changed-log",
+			"check-more-types",
+			"cli-color",
+			"console",
+			"debug",
+			"deps-ok",
+			"easy-table",
+			"is-online",
+			"lazy-ass",
+			"lodash",
+			"npm-utils",
+			"optimist",
+			"q",
+			"quote",
+			"request",
+			"semver",
+			"update-notifier"
+		],
+		"support": [],
+		"native": false
+	},
+	"gulp-sitemap": {
+		"depend": [
+			"chalk",
+			"gulp-util",
+			"lodash",
+			"multimatch",
+			"slash",
+			"through2"
+		],
+		"support": [],
+		"native": false
+	},
+	"pretty-ms": {
+		"depend": [
+			"is-finite"
+		],
+		"support": [],
+		"native": false
+	},
+	"axon": {
+		"depend": [
+			"debug",
+			"configurable",
+			"escape-regexp",
+			"amp-message",
+			"amp"
+		],
+		"support": [],
+		"native": false
+	},
+	"type-is": {
+		"depend": [
+			"media-typer"
+		],
+		"support": [],
+		"native": false
+	},
+	"duplexer": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"grunt-contrib-jasmine": {
+		"depend": [
+			"chalk",
+			"es5-shim",
+			"grunt-lib-phantomjs",
+			"jasmine-core",
+			"lodash",
+			"rimraf",
+			"sprintf-js"
+		],
+		"support": [],
+		"native": false
+	},
+	"bignumber.js": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"falafel": {
+		"depend": [
+			"acorn",
+			"foreach",
+			"isarray",
+			"object-keys"
+		],
+		"support": [],
+		"native": false
+	},
+	"node-rsa": {
+		"depend": [
+			"asn1"
+		],
+		"support": [],
+		"native": false
+	},
+	"youtube-dl": {
+		"depend": [
+			"mkdirp"
+		],
+		"support": [],
+		"native": false
+	},
+	"python-shell": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"oauth2-server": {
+		"depend": [
+			"basic-auth"
+		],
+		"support": [],
+		"native": false
+	},
+	"bindings": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"gulp-svg-symbols": {
+		"depend": [
+			"bluebird",
+			"cheerio",
+			"consolidate",
+			"gulp-util",
+			"lodash",
+			"slug",
+			"through2"
+		],
+		"support": [],
+		"native": false
+	},
+	"node-rules": {
+		"depend": [
+			"underscore"
+		],
+		"support": [],
+		"native": false
+	},
+	"karma-coverage": {
+		"depend": [
+			"istanbul",
+			"dateformat",
+			"minimatch",
+			"source-map"
+		],
+		"support": [],
+		"native": false
+	},
+	"mailin": {
+		"depend": [
+			"bluebird",
+			"commander",
+			"extend",
+			"forever-monitor",
+			"html-to-text",
+			"languagedetect",
+			"lodash",
+			"mailparser",
+			"node-uuid",
+			"semver",
+			"shelljs",
+			"smtp-server",
+			"spamc",
+			"superagent",
+			"winston"
+		],
+		"support": [],
+		"native": false
+	},
+	"jsdoc-to-markdown": {
+		"depend": [
+			"ansi-escape-sequences",
+			"command-line-args",
+			"config-master",
+			"dmd",
+			"jsdoc-parse",
+			"object-tools",
+			"stream-connect"
+		],
+		"support": [],
+		"native": false
+	},
+	"updtr": {
+		"depend": [
+			"async",
+			"cli-spinner",
+			"colors",
+			"commander",
+			"semver",
+			"unicons"
+		],
+		"support": [],
+		"native": false
+	},
+	"archy": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"ember-cli-document-title": {
+		"depend": [
+			"ember-cli-babel"
+		],
+		"support": [],
+		"native": false
+	},
+	"gulp-todo": {
+		"depend": [
+			"gulp-util",
+			"leasot",
+			"lodash",
+			"through2"
+		],
+		"support": [],
+		"native": false
+	},
+	"ember-cli-font-awesome": {
+		"depend": [
+			"ember-cli-babel",
+			"ember-computed-decorators"
+		],
+		"support": [],
+		"native": false
+	},
+	"n_": {
+		"depend": [
+			"lodash",
+			"os-homedir",
+			"repl"
+		],
+		"support": [],
+		"native": false
+	},
+	"node-restful": {
+		"depend": [
+			"underscore"
+		],
+		"support": [],
+		"native": false
+	},
+	"is": {
+		"depend": [],
+		"support": [],
+		"native": false
+	},
+	"catw": {
+		"depend": [
+			"defined",
+			"glob",
+			"globwatcher",
+			"minimist",
+			"through",
+			"stream-combiner",
+			"shell-quote",
+			"shallow-copy",
+			"resolve"
+		],
+		"support": [],
+		"native": false
+	}
+}
